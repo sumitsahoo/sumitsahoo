@@ -10,7 +10,7 @@ If you are curious, here's where you can find me :
  4. [StackOverflow](https://stackoverflow.com/story/sumitsahoo)
  
  ### What I am up-to now ?
-Learning GCP, Docker and Strapi CMS while also experimenting with my brand new Raspberry Pi 4B. 
+Learning GCP, Docker and Strapi CMS while also experimenting with my brand new Raspberry Pi 4B. Having said that, Android will always be close to heart 🤓
 
 
 <!--
