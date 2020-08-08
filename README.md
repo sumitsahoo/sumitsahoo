@@ -1,7 +1,7 @@
-### Greetings User 😎
+### 💬 Greetings User 😎
 Wondering who I am ? Well I am just a nerd who loves to code and play games :) I hate patents and love open-source.
 
-### Social
+### 📫 How to reach me
 If you are curious, here's where you can find me :
 
  1. [GitHub](https://github.com/sumitsahoo) (I am guessing you are already here lol 😂)
@@ -9,9 +9,10 @@ If you are curious, here's where you can find me :
  3. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
  4. [StackOverflow](https://stackoverflow.com/story/sumitsahoo)
  
- ### What I am up-to now ?
+ ### 🔭 What I am up-to now ?
 Learning GCP, Docker and Strapi CMS while also experimenting with my brand new Raspberry Pi 4B. Having said that, Android will always be close to heart 🤓
 
+![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true)
 
 <!--
 **sumitsahoo/sumitsahoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
