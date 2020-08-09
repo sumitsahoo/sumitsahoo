@@ -12,7 +12,7 @@ If you are curious, here's where you can find me :
  ### 🔭 What I am up-to now ?
 Learning GCP, Docker and Strapi CMS while also experimenting with my brand new Raspberry Pi 4B. Having said that, Android will always be close to heart 🤓
 
-![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true)
+![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&count_private=true)
 
 <!--
 **sumitsahoo/sumitsahoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
