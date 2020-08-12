@@ -1,3 +1,4 @@
+
 ### 💬 Greetings User 😎
 Wondering who I am ? Well I am just a nerd who loves to code and play games :) I hate patents and love open-source.
 
@@ -9,22 +10,12 @@ If you are curious, here's where you can find me :
  3. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
  4. [StackOverflow](https://stackoverflow.com/story/sumitsahoo)
  
- ### 🔭 What I am up-to now ?
+### 🔭 What I am up-to now ?
 Learning GCP, Docker and Strapi CMS while also experimenting with my brand new Raspberry Pi 4B. Having said that, Android will always be close to heart 🤓
 
-![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&count_private=true)
+### 📱 Apps developed by me
+Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby :  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
 
-<!--
-**sumitsahoo/sumitsahoo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 📈 My GitHub Stats
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&count_private=true&hide_title=true)
