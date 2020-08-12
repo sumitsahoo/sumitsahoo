@@ -16,6 +16,6 @@ Learning GCP, Docker and Strapi CMS while also experimenting with my brand new R
 ### 📱 Apps developed by me
 Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby :  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
 
-### 📈 My GitHub Stats
+### 📈 My GitHub stats
 
 ![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&count_private=true&hide_title=true)
