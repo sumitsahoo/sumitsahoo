@@ -1,6 +1,6 @@
 
 ### 💬 Greetings User 😎
-Wondering who I am ? Well I am just a nerd who loves to code and play games :) I hate patents and love open-source.
+Wondering who I am ? Well I design and develop enterprise apps (mostly for corporates). Having said that, I hate patents and love open-source.
 
 ### 📫 How to reach me
 If you are curious, here's where you can find me :
