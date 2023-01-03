@@ -7,8 +7,9 @@ If you are curious, here's where you can find me :
 
  1. [GitHub](https://github.com/sumitsahoo) (I am guessing you are already here lol 😂)
  2. [Twitter](https://twitter.com/sumitsahoo)
- 3. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
- 4. [StackOverflow](https://stackoverflow.com/story/sumitsahoo)
+ 3. [Mastodon](https://mastodon.online/@sumitsahoo)
+ 4. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
+ 5. [StackOverflow](https://stackoverflow.com/story/sumitsahoo)
  
 ### 🔭 What I am up-to now ?
 Learning GCP, AWS Amplify, Docker and Strapi CMS while also experimenting with my brand new Raspberry Pi 4B. Flutter changed the way we code now a days (i.e. Declarative style) and everyone is adopting the same. Is this the end for React Native ? Having exposed to Flutter I certainly wouldn’t prefer JS over Dart. Having said that, Android will always be close to my heart 🤓
