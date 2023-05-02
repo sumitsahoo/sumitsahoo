@@ -7,7 +7,7 @@ If you are curious, here's where you can find me:
 
  1. [GitHub](https://github.com/sumitsahoo) (I am guessing you are already here 😂)
  2. [Twitter](https://twitter.com/sumitsahoo)
- 3. [Mastodon](https://mastodon.online/@sumitsahoo)
+ 3. [Mastodon](https://mastodon.social/@sumitsahoo)
  4. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
  5. [StackOverflow](https://stackoverflow.com/users/1293601/sumit-sahoo)
  
