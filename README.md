@@ -12,7 +12,7 @@ If you are curious, here's where you can find me:
  5. [StackOverflow](https://stackoverflow.com/users/1293601/sumit-sahoo)
  
 ### 🔭 What I am up-to now ?
-I am currently experimenting with a range of innovative technologies, such as Custom ChatGPT Model, GCP, AWS Amplify, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my new Raspberry Pi 4B. The emergence of Flutter has revolutionized modern coding with its declarative style, leading to widespread adoption. However, this raises questions about the future of React Native. Personally, I have found Flutter to be a preferable alternative to React Native, thanks to its use of Dart instead of JS. Nevertheless, my passion for Android remains unwavering. 🤓
+I am currently experimenting with a range of innovative technologies, such as Custom ChatGPT Model (using Llama Index), GCP, AWS Amplify, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my new Raspberry Pi 4B. The emergence of Flutter has revolutionized modern coding with its declarative style, leading to widespread adoption. However, this raises questions about the future of React Native. Personally, I have found Flutter to be a preferable alternative to React Native, thanks to its use of Dart instead of JS. Nevertheless, my passion for Android remains unwavering. 🤓
 
 ### 📱 Apps developed by me
 Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby:  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
