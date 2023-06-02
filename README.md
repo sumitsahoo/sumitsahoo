@@ -1,5 +1,5 @@
 
-### 💬 Greetings 😎
+### 🤝 Greetings
 Hello there! As an architect, I specialize in designing and developing enterprise-level software applications that cater to the unique needs of businesses. I place great emphasis on creating scalable and secure solutions that address the specific needs of corporate clients. I hold a deep-seated appreciation for open-source technologies, which offer a collaborative and inclusive approach to software development. I believe that leveraging the principles of open-source can promote innovation, knowledge-sharing, and better outcomes for clients.
 
 ### 📫 How to reach me
