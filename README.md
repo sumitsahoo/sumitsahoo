@@ -20,4 +20,5 @@ Well, mostly I architect the solution and develop enterprise based apps. So unle
 
 ### 📈 My GitHub stats
 
-![Sumit's github stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&count_private=true&hide_title=true)
+![Sumit's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&theme=default&count_private=true&hide_title=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sumitsahoo&layout=compact)
