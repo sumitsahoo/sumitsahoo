@@ -18,6 +18,18 @@ I am currently experimenting with a range of innovative technologies, such as Cu
 ### 📱 Apps developed by me
 Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby:  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
 
+### 💼 Work history
+
+Let me summarise in mermaid 😅
+
+```mermaid
+timeline
+    2010-2015 : Began IT Journey : Wipro Technologies : Software Engineer
+    2015-2017 : IBM : Application Developer
+    2017-2020 : Dell EMC : Principal Software Engineer
+    2020-Present : Vodafone Group : Solution Architect
+```
+
 ### 📈 My GitHub stats
 
 ![Sumit's GitHub stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_icons=true&theme=default&count_private=true&hide_title=true)
