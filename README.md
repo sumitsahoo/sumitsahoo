@@ -24,7 +24,7 @@ Let me summarise in mermaid 😅
 
 ```mermaid
 timeline
-    2010-2015 : Began IT Journey : Wipro Technologies : Software Engineer
+    2010-2015 : Completed B-Tech from KIIT University : Began IT Journey : Wipro Technologies : Software Engineer
     2015-2017 : IBM : Application Developer
     2017-2020 : Dell EMC : Principal Software Engineer
     2020-Present : Vodafone Group : Solution Architect
