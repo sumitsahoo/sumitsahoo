@@ -10,8 +10,9 @@ If you are curious, here's where you can find me:
  2. [Twitter/X](https://x.com/sumitsahoo)
  3. [Medium](https://medium.com/@sumitsahoo)
  4. <a rel="me" href="https://mastodon.social/@sumitsahoo">Mastodon</a>
- 5. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
- 6. [StackOverflow](https://stackoverflow.com/users/1293601/sumit-sahoo)
+ 5. [Bluesky](https://bsky.app/profile/sumitsahoo.bsky.social)
+ 6. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
+ 7. [StackOverflow](https://stackoverflow.com/users/1293601/sumit-sahoo)
  
 ### 🔭 What I am up-to now ?
 I am currently experimenting with a range of innovative technologies, such as Custom ChatGPT/PaLM Model (using Langchain, Llama Index, and Enterprise data ahem ahem ...), GCP, AWS Amplify, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my new Raspberry Pi 4B. The emergence of Flutter has revolutionized modern coding with its declarative style, leading to widespread adoption. However, this raises questions about the future of React Native. Personally, I have found Flutter to be a preferable alternative to React Native, thanks to its use of Dart instead of JS. Nevertheless, my passion for Android remains unwavering. 🤓
