@@ -32,3 +32,5 @@ timeline
     2020-Present : Vodafone Group : Solution Architect
 ```
 
+### 📈 My GitHub stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_owner=false&rank_icon=github)
