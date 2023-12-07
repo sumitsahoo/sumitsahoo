@@ -7,7 +7,7 @@ Hello there! As an architect, I specialize in designing and developing enterpris
 If you are curious, here's where you can find me:
 
  1. [GitHub](https://github.com/sumitsahoo) (I am guessing you are already here 😂)
- 2. [Twitter/X](https://x.com/sumitsahoo)
+ 2. [X](https://x.com/sumitsahoo)
  3. [Medium](https://medium.com/@sumitsahoo)
  4. <a rel="me" href="https://mastodon.social/@sumitsahoo">Mastodon</a>
  5. [Bluesky](https://bsky.app/profile/sumitsahoo.bsky.social)
