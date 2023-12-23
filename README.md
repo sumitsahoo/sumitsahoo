@@ -13,9 +13,10 @@ If you are curious, here's where you can find me:
  5. [Bluesky](https://bsky.app/profile/sumitsahoo.bsky.social)
  6. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
  7. [StackOverflow](https://stackoverflow.com/users/1293601/sumit-sahoo)
+ 8. [Team-BHP](https://www.team-bhp.com/forum/members/newenergy.html) (I occasionally write stuff about cars 🚗)
  
 ### 🔭 What I am up-to now ?
-I am currently experimenting with a range of innovative technologies, such as Custom ChatGPT/PaLM Model (using Langchain, Llama Index, and Enterprise data ahem ahem ...), GCP, AWS Amplify, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my new Raspberry Pi 5. The emergence of Flutter has revolutionized modern coding with its declarative style, leading to widespread adoption. However, this raises questions about the future of React Native. Personally, I have found Flutter to be a preferable alternative to React Native, thanks to its use of Dart instead of JS. Nevertheless, my passion for Android remains unwavering. 🤓
+I am currently experimenting with a range of innovative technologies, such as LLMs (using Langchain, Llama-Index, and Enterprise data ahem ahem ...), GCP, AWS Amplify, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my shiny new Raspberry Pi 5.
 
 ### 📱 Apps developed by me
 Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby:  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
