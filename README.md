@@ -20,6 +20,14 @@ If you are curious, here's where you can find me:
 ### 🔭 What I am up-to now ?
 I am currently experimenting with a range of innovative technologies, such as LLMs (using Langchain, Llama-Index, and Enterprise data ahem ahem ...), GCP, AWS Amplify, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my shiny new Raspberry Pi 5.
 
+### 📖 Medium stories
+
+I frequently write technical stories over at Medium, here are a few of them:
+
+1. [Stable Video Diffision with Replicate](https://medium.com/@sumitsahoo/stable-video-diffusion-with-replicate-7bdd3ff3879e)
+2. [Generate Charts using OpenAI Code Interpreter — The API Way](https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0)
+3. [Must-have tools and apps for macOS for developers in 2023](https://medium.com/@sumitsahoo/must-have-tools-and-apps-for-macos-for-developers-in-2023-6cc43dd83bcc)
+
 ### 📱 Apps developed by me
 Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby:  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
 
