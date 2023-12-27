@@ -44,4 +44,4 @@ timeline
 ```
 
 ### 📈 My GitHub stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sumitsahoo&show_owner=false&rank_icon=github)
+![sumitsahoo's Streak](https://github-readme-streak-stats.herokuapp.com/?user=sumitsahoo&theme=default&hide_border=true)
