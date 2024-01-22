@@ -27,7 +27,7 @@ I frequently write technical stories over at Medium, here are a few of them:
 3. [Must-have tools and apps for macOS for developers in 2024](https://medium.com/@sumitsahoo/must-have-tools-and-apps-for-macos-for-developers-in-2023-6cc43dd83bcc)
 
 ### 📱 Apps developed by me
-Well, mostly I architect the solution and develop enterprise based apps. So unless you work for same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby:  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
+Well, mostly I architect the solution and develop enterprise based apps. So unless you work for the same company as I do, you won't be able to view all the apps that I was involved in. You can still see a few that I developed as a hobby:  [Personal Play Store Account](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
 
 ### 💼 Work history
 
@@ -38,7 +38,7 @@ timeline
     2010-2015 : Completed B-Tech from KIIT University : Began IT Journey : Wipro Technologies : Software Engineer
     2015-2017 : IBM : Application Developer
     2017-2020 : Dell EMC : Principal Software Engineer
-    2020-Present : Vodafone Group : Solution Architect
+    2020-Present : _VOIS : Solution Architect
 ```
 
 ### 📈 My GitHub stats
