@@ -7,11 +7,11 @@ Hello there! As an architect, I specialize in designing and developing enterpris
 If you are curious, here's where you can find me:
 
  1. [GitHub](https://github.com/sumitsahoo) (I am guessing you are already here 😂)
- 2. [X](https://x.com/sumitsahoo)
- 3. [Medium](https://medium.com/@sumitsahoo)
- 4. <a rel="me" href="https://mastodon.social/@sumitsahoo">Mastodon</a>
- 5. [Bluesky](https://bsky.app/profile/sumitsahoo.bsky.social)
- 6. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
+ 2. [X (formerly Twitter)](https://x.com/sumitsahoo)
+ 3. [LinkedIn](https://www.linkedin.com/in/sumit-sahoo)
+ 4. [Medium](https://medium.com/@sumitsahoo)
+ 5. <a rel="me" href="https://mastodon.social/@sumitsahoo">Mastodon</a>
+ 6. [Bluesky](https://bsky.app/profile/sumitsahoo.bsky.social)
  7. [StackOverflow](https://stackoverflow.com/users/1293601/sumit-sahoo)
  8. [Team-BHP](https://www.team-bhp.com/forum/members/newenergy.html) (I occasionally write stuff about cars 🚗)
  
