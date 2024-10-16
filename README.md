@@ -37,8 +37,8 @@ Let me summarise in mermaid 😅
 timeline
     2010-2015 : Completed B-Tech from KIIT University : Began IT Journey : Wipro Technologies : Software Engineer
     2015-2017 : IBM : Application Developer
-    2017-2020 : Dell EMC : Principal Software Engineer
-    2020-Present : _VOIS : Solution Architect
+    2017-2020 : Dell Technologies : Principal Software Engineer
+    2020-Present : VOIS : Solution Architect
 ```
 
 ### 📈 My GitHub stats
