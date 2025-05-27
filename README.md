@@ -16,7 +16,7 @@ If you are curious, here's where you can find me:
  8. [Team-BHP](https://www.team-bhp.com/forum/members/newenergy.html) (I occasionally write stuff about cars 🚗)
  
 ### 🔭 What I am up-to now ?
-I am currently experimenting with a range of innovative technologies, such as LLMs (using Langchain, Llama-Index, and Enterprise data ahem ahem ...), GCP, AWS, Oracle Cloud, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my shiny new Raspberry Pi 5.
+I am currently experimenting with a range of innovative technologies, such as LLMs, Agents (using LangChain/LangGraph, Llama-Index, and Enterprise data ahem ahem ...), GCP, AWS, Oracle Cloud, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my shiny new Raspberry Pi 5.
 
 ### 📖 Medium stories
 
