@@ -19,7 +19,7 @@ If you are curious, here's where you can find me:
 I am currently experimenting with a range of innovative technologies, such as LLMs, Agents (using Google ADK, OpenAI ChatKit, AgentKit, LangChain/LangGraph, Llama-Index, and Enterprise data ahem ahem ...), GCP, AWS, Oracle Cloud, Docker, and Strapi CMS. Additionally, I am exploring the capabilities of my shiny new Raspberry Pi 5.
 
 <p align="center">
- <img width="1000" src="assets/snake.svg" alt="snake"/>
+ <img width="1000" src="assets/github-contribution.svg" alt="snake"/>
 </p>
 
 ### 📖 Medium stories
