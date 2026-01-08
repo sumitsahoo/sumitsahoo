@@ -1,9 +1,9 @@
 name: generate contribution animation
 
 on:
-  # run automatically every 24 hours
+  # run automatically every week
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 0 * * 0" 
   
   # allows to manually run the job at any time
   workflow_dispatch:
