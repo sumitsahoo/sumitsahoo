@@ -1,44 +1,64 @@
+# =============================================================================
+# GitHub Contribution Animation Generator
+# =============================================================================
+# This workflow generates an animated SVG snake game that visualizes GitHub
+# contributions. The snake eats the contribution squares on the grid.
+# =============================================================================
+
 name: generate contribution animation
 
 on:
-  # run automatically every week
+  # Run automatically every Sunday at midnight UTC (weekly schedule)
   schedule:
     - cron: "0 0 * * 0" 
   
-  # allows to manually run the job at any time
+  # Allow manual triggering from GitHub Actions UI
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # Trigger on every push to master branch
   push:
     branches:
     - master
-    
-  
 
 jobs:
   generate:
+    # Grant write permissions to push generated files back to repository
     permissions: 
       contents: write
     runs-on: ubuntu-latest
+    # Prevent workflow from running indefinitely
     timeout-minutes: 5
     
     steps:
+      # Step 1: Clone the repository to the runner
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate-snake-game-from-github-contribution-grid
+      # Step 2: Generate snake animation SVGs from GitHub contribution graph
+      # Creates both light and dark theme versions of the animation
+      - name: Generate snake animation from contributions
         uses: Platane/snk@v3.4.1
         with:
+          # Use repository owner's GitHub username for contribution data
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/github-contribution.svg
             assets/github-contribution-dark.svg?palette=github-dark
 
+      # Step 3: Commit and push generated SVG files to master branch
+      # Only commits if there are actual changes to the files
       - name: Commit and push SVG files to master
         run: |
+          # Configure git user for the commit
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # Stage only the generated SVG files
           git add assets/github-contribution.svg assets/github-contribution-dark.svg
-          git diff --staged --quiet || git commit -m "Update contribution animation [skip ci]"
+          
+          # Commit only if there are staged changes (prevents empty commits)
+          # The [skip ci] tag prevents this commit from triggering another workflow run
+          git diff --staged --quiet || git commit -m "chore: update GitHub contribution animation ($(date +'%Y-%m-%d %H:%M:%S UTC')) [skip ci]"
+          
+          # Push changes to remote repository
           git push
