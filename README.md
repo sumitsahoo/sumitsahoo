@@ -5,8 +5,8 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Solution+Architect+%7C+Tech+Enthusiast;Building+Scalable+Enterprise+Solutions;Open+Source+Advocate+%F0%9F%92%99)](https://github.com/sumitsahoo)
 
-[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/sumitsahoo)
-[![GitHub followers](https://img.shields.io/github/followers/sumitsahoo?label=Followers&style=for-the-badge&color=58a6ff)](https://github.com/sumitsahoo?tab=followers)
+[![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=for-the-badge&color=58a6ff)](https://github.com/sumitsahoo)
+[![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=for-the-badge&color=58a6ff)](https://github.com/sumitsahoo?tab=followers)
 
 </div>
 
