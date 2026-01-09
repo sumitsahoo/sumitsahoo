@@ -1,30 +1,44 @@
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=180&section=header&text=Hey%20there!%20👋%20I'm%20Sumit%20Sahoo&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Solution%20Architect%20%7C%20Tech%20Enthusiast%20%7C%20Open%20Source%20Advocate&descAlignY=55&descSize=18" width="100%"/>
+
 <div align="center">
-  
-# Hey there! 👋 I'm Sumit Sahoo
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Solution+Architect+%7C+Tech+Enthusiast;Building+Scalable+Enterprise+Solutions;Open+Source+Advocate+%F0%9F%92%99)](https://github.com/sumitsahoo)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
 
-[![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=for-the-badge&color=58a6ff)](https://github.com/sumitsahoo)
-[![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=for-the-badge&color=58a6ff)](https://github.com/sumitsahoo?tab=followers)
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+[![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=for-the-badge&logo=github&color=58a6ff&labelColor=1a1b27)](https://github.com/sumitsahoo)
+[![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=for-the-badge&logo=github&color=58a6ff&labelColor=1a1b27)](https://github.com/sumitsahoo?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&style=for-the-badge&color=58a6ff&labelColor=1a1b27)](https://github.com/sumitsahoo)
 
 </div>
 
 ---
 
-## 🤝🏻 About Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" alt="Technologist" width="30" height="30" /> About Me
 
-> *"Building tomorrow's solutions with today's innovation"*
+<div align="center">
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Building%20tomorrow%27s%20solutions%20with%20today%27s%20innovation&author=Sumit%20Sahoo" alt="Quote"/>
+</div>
+
+<br/>
+
+<img align="right" alt="Coding" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
 
 Hello there! As an architect, I specialize in designing and developing **enterprise-level software applications** that cater to the unique needs of businesses. I place great emphasis on creating **scalable and secure solutions** that address the specific needs of corporate clients. 
 
 I hold a deep-seated appreciation for **open-source technologies**, which offer a collaborative and inclusive approach to software development. I believe that leveraging the principles of open-source can promote innovation, knowledge-sharing, and better outcomes for clients.
 
-🚀 Currently focused on building **AI Agents** and cloud native **enterprise applications**.
+- 🔭 Currently focused on building **AI Agents** and cloud native **enterprise applications**
+- 🌱 Always learning and exploring new technologies
+- 💬 Ask me about **System Design, Cloud Architecture, AI/ML**
+- ⚡ Fun fact: I love cars and follow Team-BHP! 🚗
+
+<br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="28" height="28" /> Tech Stack
 
 <div align="center">
 
@@ -39,7 +53,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 ---
 
-## 📫 Connect With Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Link.png" alt="Link" width="28" height="28" /> Connect With Me
 
 <div align="center">
 
@@ -54,17 +68,25 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 </div>
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div>
+
 ---
 
-## 🐍 Contribution Graph
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Snake.png" alt="Snake" width="28" height="28" /> Contribution Graph
 
 <p align="center">
  <img width="1000" src="assets/github-contribution.svg" alt="snake"/>
 </p>
 
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sumitsahoo&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true" width="100%"/>
+</div>
+
 ---
 
-## 📖 Latest Medium Stories
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Books.png" alt="Books" width="28" height="28" /> Latest Medium Stories
 
 <div align="center">
 
@@ -79,7 +101,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 ---
 
-## 📱 Apps Developed
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" alt="Phone" width="28" height="28" /> Apps Developed
 
 <div align="center">
 
@@ -93,7 +115,7 @@ Well, mostly I architect the solution and develop enterprise-based apps. So unle
 
 ---
 
-## 💼 Career Journey
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="28" height="28" /> Career Journey
 
 ```mermaid
 timeline
@@ -107,8 +129,12 @@ timeline
 
 <div align="center">
 
-### 💖 Thanks for visiting!
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Sparkling%20Heart.png" alt="Heart" width="25" height="25" /> Thanks for visiting!
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=100&section=footer" width="100%"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=500&lines=Feel+free+to+reach+out+for+collaborations!;Let's+build+something+amazing+together+🚀" alt="Footer Typing SVG"/>
+
+<br/>
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
 
 </div>
