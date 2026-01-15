@@ -11,13 +11,9 @@
 
 </div>
 
----
+
 
 ## 👨‍💻 About Me
-
-<div align="center">
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Building%20tomorrow%27s%20solutions%20with%20today%27s%20innovation" alt="Quote"/>
-</div>
 
 <br/>
 
@@ -34,7 +30,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 <br clear="right"/>
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +45,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 </div>
 
----
+
 
 ## 🔗 Connect With Me
 
@@ -66,7 +62,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 </div>
 
----
+
 
 ## 🐍 Contribution Graph
 
@@ -78,7 +74,6 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=sumitsahoo&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true" width="100%"/>
 </div>
 
----
 
 ## 📚 Latest Medium Stories
 
@@ -93,7 +88,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 </div>
 
----
+
 
 ## 📱 Apps Developed
 
@@ -107,7 +102,7 @@ Well, mostly I architect the solution and develop enterprise-based apps. So unle
 
 </div>
 
----
+
 
 ## 💼 Career Journey
 
@@ -119,7 +114,7 @@ timeline
     2020-Present : VOIS : Solution Architect
 ```
 
----
+
 
 <div align="center">
 
