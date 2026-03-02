@@ -81,6 +81,7 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 | 📝 Article | 🔗 Link |
 |:---|:---:|
+| 📸  Introducing Modern Barcode Scanner: The Only React Barcode Library You’ll Ever Need | [![Read](https://img.shields.io/badge/Read-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@sumitsahoo/introducing-modern-barcode-scanner-the-only-react-barcode-library-youll-ever-need-5f603feb7631) |
 | 🍏 How to Install macOS Tahoe via USB Drive | [![Read](https://img.shields.io/badge/Read-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@sumitsahoo/how-to-install-macos-tahoe-via-usb-drive-4308e70269dc) |
 | 🎬 Stable Video Diffusion with Replicate | [![Read](https://img.shields.io/badge/Read-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@sumitsahoo/stable-video-diffusion-with-replicate-7bdd3ff3879e) |
 | 📊 Generate Charts using OpenAI Code Interpreter | [![Read](https://img.shields.io/badge/Read-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0) |
