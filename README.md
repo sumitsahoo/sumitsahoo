@@ -91,15 +91,18 @@ I hold a deep-seated appreciation for **open-source technologies**, which offer 
 
 
 
-## 📱 Apps Developed
+## 📦 NPM Packages
 
 <div align="center">
 
-Well, mostly I architect the solution and develop enterprise-based apps. So unless you work for the same company as I do, you won't be able to view all the apps that I was involved in.
+I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community! 💛
 
-[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/developer?id=Sumit%20Sahoo)
+![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=for-the-badge&logo=npm&label=Total%20Downloads&color=58a6ff&labelColor=1a1b27)
 
-*Check out my hobby projects on the Play Store!*
+| Package | Downloads |
+|:---|:---:|
+| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | ![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat-square&logo=npm&color=58a6ff&labelColor=1a1b27) |
+| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | ![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat-square&logo=npm&color=58a6ff&labelColor=1a1b27) |
 
 </div>
 
