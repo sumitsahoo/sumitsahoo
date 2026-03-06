@@ -91,15 +91,11 @@
 
 ## 📚 Latest Medium Stories
 
-<div align="center">
-
 - 📸 [Introducing Modern Barcode Scanner: The Only React Barcode Library You'll Ever Need](https://medium.com/@sumitsahoo/introducing-modern-barcode-scanner-the-only-react-barcode-library-youll-ever-need-5f603feb7631)
 - 🍏 [How to Install macOS Tahoe via USB Drive](https://medium.com/@sumitsahoo/how-to-install-macos-tahoe-via-usb-drive-4308e70269dc)
 - 🎬 [Stable Video Diffusion with Replicate](https://medium.com/@sumitsahoo/stable-video-diffusion-with-replicate-7bdd3ff3879e)
 - 📊 [Generate Charts using OpenAI Code Interpreter](https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0)
 - 💻 [Must-have tools and apps for macOS in 2025](https://medium.com/@sumitsahoo/must-have-tools-and-apps-for-macos-for-developers-in-2023-6cc43dd83bcc)
-
-</div>
 
 ## 📦 NPM Packages
 
