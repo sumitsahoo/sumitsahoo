@@ -94,13 +94,13 @@
 
 ## 📈 Activity
 
+<div align="center">
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sumitsahoo&card_width=1000&hide_longest_streak=true" alt="GitHub Streak" /></a>
+</div>
+
 <p align="center">
  <img width="1000" src="assets/github-contribution.svg" alt="snake"/>
 </p>
-
-<div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sumitsahoo&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&area_color=58A6FF&hide_border=true" width="100%"/>
-</div>
 
 ## 📚 Latest Medium Stories
 
