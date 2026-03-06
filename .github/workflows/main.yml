@@ -18,7 +18,7 @@ on:
   # Trigger on every push to master branch (excluding asset changes)
   push:
     branches:
-      - master
+      - main
     # Ignore pushes that only change generated assets (prevents infinite loops)
     paths-ignore:
       - 'assets/**'
@@ -59,9 +59,9 @@ jobs:
         # Continue even if generation fails (e.g., GitHub API rate limit)
         continue-on-error: true
 
-      # Step 3: Commit and push generated SVG files to master branch
+      # Step 3: Commit and push generated SVG files to main branch
       # Only runs if SVG generation was successful
-      - name: Commit and push SVG files to master
+      - name: Commit and push SVG files to main
         if: steps.generate-snake.outcome == 'success'
         run: |
           # Configure git user for the commit
