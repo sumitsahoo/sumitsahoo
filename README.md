@@ -98,10 +98,6 @@
 <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sumitsahoo&card_width=1000&hide_longest_streak=true" alt="GitHub Streak" /></a>
 </div>
 
-<p align="center">
- <img width="1000" src="assets/github-contribution.svg" alt="snake"/>
-</p>
-
 ## 📚 Latest Medium Stories
 
 <div align="center">
@@ -142,6 +138,12 @@ timeline
 <div align="center">
 
 ### 🙏🏻 Thanks for visiting!
+
+*P.S. — You scrolled all the way down? Here's a snake eating my contribution graph as a reward.* 🐍
+
+<p>
+ <img width="1000" src="assets/github-contribution.svg" alt="snake"/>
+</p>
 
 </div>
 
