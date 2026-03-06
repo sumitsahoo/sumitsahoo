@@ -7,7 +7,7 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=flat&logo=github&color=58a6ff&labelColor=555)](https://github.com/sumitsahoo)
 [![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=flat&logo=github&color=58a6ff&labelColor=555)](https://github.com/sumitsahoo?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&style=flat&color=58a6ff&label=Profile+views)](https://github.com/sumitsahoo)
+[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&style=flat&color=58a6ff&label=profile+views)](https://github.com/sumitsahoo)
 
 </div>
 
@@ -103,7 +103,7 @@
 
 I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community! 💛
 
-![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=Total%20Downloads&color=58a6ff&labelColor=555)
+![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=total%20downloads&color=58a6ff&labelColor=555)
 
 | Package | Downloads |
 |:---|:---:|
