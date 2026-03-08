@@ -1,5 +1,5 @@
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=180&section=header&text=Hey%20there!%20👋%20I'm%20Sumit%20Sahoo&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Solution%20Architect%20%7C%20Tech%20Enthusiast%20%7C%20Open%20Source%20Advocate&descAlignY=55&descSize=18" width="100%"/>
+<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=180&section=header&text=Hey%20there!%20👋%20I'm%20Sumit%20Sahoo&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Solution%20Architect%20%7C%20Tech%20Enthusiast%20%7C%20Open%20Source%20Advocate&descAlignY=55&descSize=18" width="100%"/></a>
 
 <div align="center">
 
@@ -107,8 +107,8 @@ I occasionally publish npm packages that I think will help others. I love open s
 
 | Package | Downloads |
 |:---|:---:|
-| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | ![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=58a6ff&labelColor=555) |
-| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | ![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=58a6ff&labelColor=555) |
+| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
+| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
 
 </div>
 
@@ -129,9 +129,9 @@ timeline
 *P.S. — You scrolled all the way down? Here's a snake eating my contribution graph as a reward.* 🐍
 
 <p>
- <img width="1000" src="assets/github-contribution.svg" alt="snake"/>
+ <a href="#"><img width="1000" src="assets/github-contribution.svg" alt="snake"/></a>
 </p>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=120&section=footer" width="100%"/>
+<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=120&section=footer" width="100%"/></a>
