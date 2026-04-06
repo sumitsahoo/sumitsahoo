@@ -95,6 +95,19 @@
 - 📊 [Generate Charts using OpenAI Code Interpreter](https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0)
 - 💻 [Must-have tools and apps for macOS in 2025](https://medium.com/@sumitsahoo/must-have-tools-and-apps-for-macos-for-developers-in-2023-6cc43dd83bcc)
 
+## 🚀 Featured Project
+
+<div align="center">
+
+### [BytePDF](https://bytepdf.app/) — A powerful, fully open-source PDF toolkit
+
+Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
+
+[![Try BytePDF](https://img.shields.io/badge/Try%20BytePDF-bytepdf.app-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://bytepdf.app/)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/sumitsahoo/bytepdf)
+
+</div>
+
 ## 📦 NPM Packages
 
 <div align="center">
