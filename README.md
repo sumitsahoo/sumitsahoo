@@ -21,71 +21,61 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+> **🤖 AI & Agentic Frameworks**
 
-**🤖 AI & Agentic Frameworks**
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logoColor=white)](#)
+[![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)](#)
+[![Claude](https://img.shields.io/badge/Claude-191919?style=flat&logo=anthropic&logoColor=white)](#)
+[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)](#)
+[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)](#)
+[![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8A2BE2?style=flat&logoColor=white)](#)
+[![ADK](https://img.shields.io/badge/ADK-4285F4?style=flat&logo=google&logoColor=white)](#)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](#)
+[![RAG](https://img.shields.io/badge/RAG-00ADD8?style=flat&logoColor=white)](#)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](#)
+[![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat&logo=gradio&logoColor=white)](#)
 
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](#)
-[![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)](#)
-[![Claude](https://img.shields.io/badge/Claude-191919?style=flat-square&logo=anthropic&logoColor=white)](#)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](#)
-[![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](#)
-[![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8A2BE2?style=flat-square&logoColor=white)](#)
-[![ADK](https://img.shields.io/badge/ADK-4285F4?style=flat-square&logo=google&logoColor=white)](#)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](#)
-[![RAG](https://img.shields.io/badge/RAG-00ADD8?style=flat-square&logoColor=white)](#)
-[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](#)
-[![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white)](#)
+> **💻 Programming Languages**
 
-**💻 Programming Languages**
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](#)
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)](#)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](#)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)](#)
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](#)
-[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](#)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](#)
-[![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](#)
+> **📱 Web & Mobile**
 
-**📱 Web & Mobile**
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)](#)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](#)
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)](#)
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)](#)
+[![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=apple&logoColor=white)](#)
+[![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](#)
 
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](#)
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](#)
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](#)
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)](#)
-[![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)](#)
-[![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](#)
+> **☁️ Infrastructure & Cloud**
 
-**☁️ Infrastructure & Cloud**
-
-[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](#)
-[![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](#)
-[![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)](#)
-[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](#)
-[![K8s](https://img.shields.io/badge/K8s-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](#)
-
-</div>
+[![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)](#)
+[![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)](#)
+[![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)](#)
+[![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](#)
+[![K8s](https://img.shields.io/badge/K8s-326CE5?style=flat&logo=kubernetes&logoColor=white)](#)
 
 ## 🔗 Connect With Me
 
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/sumitsahoo)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-sahoo)
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/sumitsahoo)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@sumitsahoo)
-[![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=flat-square&logo=mastodon&logoColor=white)](https://mastodon.social/@sumitsahoo)
-[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=flat-square&logo=bluesky&logoColor=white)](https://bsky.app/profile/sumitsahoo.bsky.social)
-[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=flat-square&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/1293601/sumit-sahoo)
-[![Team-BHP](https://img.shields.io/badge/Team--BHP-🚗-red?style=flat-square)](https://www.team-bhp.com/forum/members/newenergy.html)
-
-</div>
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/sumitsahoo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sumit-sahoo)
+[![X](https://img.shields.io/badge/-000000?style=flat&logo=x&logoColor=white)](https://x.com/sumitsahoo)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@sumitsahoo)
+[![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=flat&logo=mastodon&logoColor=white)](https://mastodon.social/@sumitsahoo)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=flat&logo=bluesky&logoColor=white)](https://bsky.app/profile/sumitsahoo.bsky.social)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/1293601/sumit-sahoo)
+[![Team-BHP](https://img.shields.io/badge/Team--BHP-red?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOC45MiA2LjAxQzE4LjcyIDUuNDIgMTguMTYgNSAxNy41IDVoLTExYy0uNjYgMC0xLjIxLjQyLTEuNDIgMS4wMUwzIDEydjhjMCAuNTUuNDUgMSAxIDFoMWMuNTUgMCAxLS40NSAxLTF2LTFoMTJ2MWMwIC41NS40NSAxIDEgMWgxYy41NSAwIDEtLjQ1IDEtMXYtOGwtMi4wOC01Ljk5ek02LjUgMTZjLS44MyAwLTEuNS0uNjctMS41LTEuNVM1LjY3IDEzIDYuNSAxMyA4IDEzLjY3IDggMTQuNSA3LjMzIDE2IDYuNSAxNnptMTEgMGMtLjgzIDAtMS41LS42Ny0xLjUtMS41czEuNjctMS41IDEuNS0xLjUgMS41LjY3IDEuNSAxLjUtLjY3IDEuNS0xLjUgMS41ek01IDExbDEuNS00LjVoMTFMMTkgMTFINXoiLz48L3N2Zz4=&logoColor=white)](https://www.team-bhp.com/forum/members/newenergy.html)
 
 ## 📈 Activity
 
-<div align="center">
 <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sumitsahoo&card_width=1000&hide_longest_streak=true" alt="GitHub Streak" /></a>
-</div>
 
 ## 📚 Latest Medium Stories
 
@@ -97,32 +87,24 @@
 
 ## 🚀 Featured Project
 
-<div align="center">
-
 ### [BytePDF](https://bytepdf.app/) — A powerful, fully open-source PDF toolkit
 
-Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
+> Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
 
 [![Try BytePDF](https://img.shields.io/badge/Try%20BytePDF-bytepdf.app-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://bytepdf.app/)
 [![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/sumitsahoo/bytepdf)
 
-</div>
-
 ## 📦 NPM Packages
 
-<div align="center">
-
-I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community! 💛
+I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community!
 
 [![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=total%20downloads&color=58a6ff&labelColor=555)](#)
 
-| Package                                                                        |                                                          Downloads                                                          |
-| :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------: |
-| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine)           | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=58a6ff&labelColor=555)](#)      |
+| Package | Downloads |
+| :--- | :--- |
+| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine) | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
 | [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
-| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera)   | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=58a6ff&labelColor=555)](#)  |
-
-</div>
+| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
 
 ## 💼 Career Journey
 
@@ -134,16 +116,10 @@ timeline
     2020-Present : VOIS : Solution Architect
 ```
 
-<div align="center">
+### Thanks for visiting!
 
-### 🙏🏻 Thanks for visiting!
+_P.S. — You scrolled all the way down? Here's a snake eating my contribution graph as a reward._
 
-_P.S. — You scrolled all the way down? Here's a snake eating my contribution graph as a reward._ 🐍
-
-<p>
- <a href="#"><img width="1000" src="assets/github-contribution.svg" alt="snake"/></a>
-</p>
-
-</div>
+<a href="#"><img width="1000" src="assets/github-contribution.svg" alt="snake"/></a>
 
 <a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=120&section=footer" width="100%"/></a>
