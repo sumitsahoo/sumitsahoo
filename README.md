@@ -105,6 +105,7 @@ I occasionally publish npm packages that I think will help others. I love open s
 
 | Package                                                                        |                                                          Downloads                                                          |
 | :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------: |
+| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine)           | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=58a6ff&labelColor=555)](#)      |
 | [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
 | [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera)   | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=58a6ff&labelColor=555)](#)  |
 
