@@ -23,9 +23,9 @@
 
 > **🤖 AI & Agentic Frameworks**
 
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logoColor=white)](#)
+[![OpenAI](https://custom-icon-badges.demolab.com/badge/OpenAI-74aa9c?style=flat&logo=openai&logoColor=white)](#)
 [![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)](#)
-[![Claude](https://img.shields.io/badge/Claude-191919?style=flat&logo=anthropic&logoColor=white)](#)
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)](#)
 [![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)](#)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)](#)
 [![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8A2BE2?style=flat&logoColor=white)](#)
@@ -34,6 +34,7 @@
 [![RAG](https://img.shields.io/badge/RAG-00ADD8?style=flat&logoColor=white)](#)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](#)
 [![Gradio](https://img.shields.io/badge/Gradio-F97316?style=flat&logo=gradio&logoColor=white)](#)
+[![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)](#)
 
 > **💻 Programming Languages**
 
