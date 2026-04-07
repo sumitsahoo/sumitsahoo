@@ -88,12 +88,12 @@
 
 ## 🚀 Featured Project
 
-### [BytePDF](https://bytepdf.app/) — A powerful, fully open-source PDF toolkit
+### [CloakPDF](https://cloakpdf.app/) — A powerful, fully open-source PDF toolkit
 
 > Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
 
-[![Try BytePDF](https://img.shields.io/badge/Try%20BytePDF-bytepdf.app-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://bytepdf.app/)
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/sumitsahoo/bytepdf)
+[![Try CloakPDF](https://img.shields.io/badge/Try%20CloakPDF-cloakpdf.app-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://cloakpdf.app/)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/sumitsahoo/cloakpdf)
 
 ## 📦 NPM Packages
 
