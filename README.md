@@ -86,14 +86,21 @@
 - 📊 [Generate Charts using OpenAI Code Interpreter](https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0)
 - 💻 [Must-have tools and apps for macOS in 2025](https://medium.com/@sumitsahoo/must-have-tools-and-apps-for-macos-for-developers-in-2023-6cc43dd83bcc)
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
-### [CloakPDF](https://cloakpdf.app/) — A powerful, fully open-source PDF toolkit
+### [CloakPDF](https://pdf.cloakyard.com/) — A powerful, fully open-source PDF toolkit
 
 > Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
 
-[![Try CloakPDF](https://img.shields.io/badge/Try%20CloakPDF-cloakpdf.app-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://cloakpdf.app/)
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/sumitsahoo/cloakpdf)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakpdf)
+[![Try CloakPDF](https://img.shields.io/badge/Try%20CloakPDF-pdf.cloakyard.com-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://pdf.cloakyard.com/)
+
+### [CloakResume](https://resume.cloakyard.com/) — A privacy-first, open-source resume builder
+
+> Craft beautiful, professional resumes entirely in your browser. Your data never leaves your device.
+
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakresume)
+[![Try CloakResume](https://img.shields.io/badge/Try%20CloakResume-resume.cloakyard.com-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://resume.cloakyard.com/)
 
 ## 📦 NPM Packages
 
