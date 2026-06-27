@@ -1,12 +1,12 @@
-<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=180&section=header&text=Hey%20there!%20👋%20I'm%20Sumit%20Sahoo&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Solution%20Architect%20%7C%20Tech%20Enthusiast%20%7C%20Open%20Source%20Advocate&descAlignY=55&descSize=18" width="100%"/></a>
+<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:1E3A8A&height=180&section=header&text=Hey%20there!%20👋%20I'm%20Sumit%20Sahoo&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Solution%20Architect%20%7C%20Tech%20Enthusiast%20%7C%20Open%20Source%20Advocate&descAlignY=55&descSize=18" width="100%"/></a>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
 
-[![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=flat&logo=github&color=58a6ff&labelColor=555)](https://github.com/sumitsahoo)
-[![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=flat&logo=github&color=58a6ff&labelColor=555)](https://github.com/sumitsahoo?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&style=flat&color=58a6ff&label=profile+views)](https://github.com/sumitsahoo)
+[![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=flat&logo=github&color=2563EB&labelColor=555)](https://github.com/sumitsahoo)
+[![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=flat&logo=github&color=2563EB&labelColor=555)](https://github.com/sumitsahoo?tab=followers)
+[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&style=flat&color=2563EB&label=profile+views)](https://github.com/sumitsahoo)
 
 </div>
 
@@ -53,7 +53,7 @@
 
 ## 📈 Activity
 
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sumitsahoo&card_width=1000&hide_longest_streak=true" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sumitsahoo&card_width=1000&hide_longest_streak=true&ring=2563EB&fire=2563EB&currStreakLabel=2563EB" alt="GitHub Streak" /></a>
 
 ## 📚 Latest Medium Stories
 
@@ -69,34 +69,34 @@
 
 > Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakpdf)
-[![Try CloakPDF](https://img.shields.io/badge/Try%20CloakPDF-pdf.cloakyard.com-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://pdf.cloakyard.com/)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-2563EB?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakpdf)
+[![Try CloakPDF](https://img.shields.io/badge/Try%20CloakPDF-pdf.cloakyard.com-2563EB?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://pdf.cloakyard.com/)
 
 ### [CloakResume](https://resume.cloakyard.com/) — A privacy-first, open-source resume builder
 
 > Craft beautiful, professional resumes entirely in your browser. Your data never leaves your device.
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakresume)
-[![Try CloakResume](https://img.shields.io/badge/Try%20CloakResume-resume.cloakyard.com-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://resume.cloakyard.com/)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-2563EB?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakresume)
+[![Try CloakResume](https://img.shields.io/badge/Try%20CloakResume-resume.cloakyard.com-2563EB?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://resume.cloakyard.com/)
 
 ### [CloakImg](https://img.cloakyard.com/) — A minimal, privacy-first photo editor
 
 > A clean, browser-based photo editor that respects your photos. Crop, adjust, and enhance — everything stays on your device.
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-58a6ff?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakimg)
-[![Try CloakImg](https://img.shields.io/badge/Try%20CloakImg-img.cloakyard.com-58a6ff?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://img.cloakyard.com/)
+[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-2563EB?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakimg)
+[![Try CloakImg](https://img.shields.io/badge/Try%20CloakImg-img.cloakyard.com-2563EB?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://img.cloakyard.com/)
 
 ## 📦 NPM Packages
 
 I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community!
 
-[![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=total%20downloads&color=58a6ff&labelColor=555)](#)
+[![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=total%20downloads&color=2563EB&labelColor=555)](#)
 
 | Package | Downloads |
 | :--- | :--- |
-| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine) | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
-| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
-| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=58a6ff&labelColor=555)](#) |
+| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine) | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=2563EB&labelColor=555)](#) |
+| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=2563EB&labelColor=555)](#) |
+| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=2563EB&labelColor=555)](#) |
 
 ## 💼 Career Journey
 
@@ -125,4 +125,4 @@ _P.S. — You scrolled all the way down? Here's a snake eating my contribution g
 
 <a href="#"><img width="1000" src="assets/github-contribution.svg" alt="snake"/></a>
 
-<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,19,20,24&height=120&section=footer" width="100%"/></a>
+<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:1E3A8A&height=120&section=footer" width="100%"/></a>
