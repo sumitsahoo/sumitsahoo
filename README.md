@@ -1,4 +1,4 @@
-<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:588DF3,50:3B6FD6,100:1E40AF&height=180&section=header&text=Hey%20there!%20👋%20I'm%20Sumit%20Sahoo&fontSize=36&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Solution%20Architect%20%7C%20Tech%20Enthusiast%20%7C%20Open%20Source%20Advocate&descAlignY=55&descSize=18" width="100%"/></a>
+<a href="#"><img src="assets/header.svg" alt="Hey there! I’m Sumit Sahoo — Solution Architect, Tech Enthusiast, Open Source Advocate" width="100%"/></a>
 
 <div align="center">
 
@@ -125,4 +125,4 @@ _P.S. — You scrolled all the way down? Here's a snake eating my contribution g
 
 <a href="#"><img width="1000" src="assets/github-contribution.svg" alt="snake"/></a>
 
-<a href="#"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:588DF3,50:3B6FD6,100:1E40AF&height=120&section=footer" width="100%"/></a>
+<a href="#"><img src="assets/footer.svg" alt="" width="100%"/></a>
