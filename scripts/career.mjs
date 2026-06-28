@@ -44,7 +44,7 @@ const MARKS = {
 // Each milestone. `org` renders the full organisation name under the company;
 // `note` renders a small accent line; `future: true` styles an open chapter.
 const CAREER = [
-  { mark: "kiit", range: "Jul 2006 – Jun 2010", company: "KIIT University", role: ["B.Tech,", "Computer Science"] },
+  { mark: "kiit", range: "Jul 2006 – Jun 2010", company: "KIIT University", role: ["B.Tech", "Computer Science"] },
   {
     mark: "wipro",
     range: "Oct 2010 – Feb 2015",
