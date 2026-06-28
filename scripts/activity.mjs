@@ -48,7 +48,10 @@ async function getCreatedAt(login) {
 }
 
 // contributionCalendar is capped at a 1-year span, so we query year by year.
-async function getYearDays(login, from, to) {
+// `viewer.restrictedContributionsCount` is the count of PRIVATE contributions
+// in the window — GitHub exposes no per-day data for these, only this total,
+// and only when the authenticated token belongs to `login`.
+async function getYearData(login, from, to) {
   const data = await gql(
     `query($login:String!,$from:DateTime!,$to:DateTime!){
        user(login:$login){
@@ -58,14 +61,46 @@ async function getYearDays(login, from, to) {
            }
          }
        }
+       viewer{
+         login
+         contributionsCollection(from:$from,to:$to){
+           contributionCalendar{
+             weeks{ contributionDays{ date contributionCount } }
+           }
+           restrictedContributionsCount
+         }
+       }
      }`,
     { login, from: from.toISOString(), to: to.toISOString() }
   );
-  const weeks =
-    data.user.contributionsCollection.contributionCalendar.weeks;
-  return weeks.flatMap((w) =>
+  // When the token belongs to this user, read the calendar via `viewer` — a
+  // fine-grained PAT has full access to its own data but limited access to the
+  // user(login) object (which returns a partial calendar). Otherwise fall back
+  // to the public user(login) calendar.
+  const isSelf = data.viewer.login.toLowerCase() === login.toLowerCase();
+  const coll = isSelf
+    ? data.viewer.contributionsCollection
+    : data.user.contributionsCollection;
+  const days = coll.contributionCalendar.weeks.flatMap((w) =>
     w.contributionDays.map((d) => ({ date: d.date, count: d.contributionCount }))
   );
+  const restricted = isSelf
+    ? data.viewer.contributionsCollection.restrictedContributionsCount
+    : 0;
+  return { days, restricted };
+}
+
+// Private contribution count for an arbitrary window (used for "this month").
+async function getRestricted(login, from, to) {
+  const data = await gql(
+    `query($from:DateTime!,$to:DateTime!){
+       viewer{ login contributionsCollection(from:$from,to:$to){ restrictedContributionsCount } }
+     }`,
+    { from: from.toISOString(), to: to.toISOString() }
+  );
+  return data.viewer.login.toLowerCase() === login.toLowerCase()
+    ? data.viewer.contributionsCollection.restrictedContributionsCount
+    : 0;
 }
 
 // --- Stats -------------------------------------------------------------------
@@ -241,6 +276,11 @@ function buildSvg(s) {
   ${statsSvg}
 
   <text x="${pad}" y="${sparkY - 8}" class="spark-label">Last 30 days</text>
+  ${
+    s.inclPrivate
+      ? `<text x="${W - pad}" y="${sparkY - 8}" text-anchor="end" class="spark-label">Totals include private contributions</text>`
+      : ""
+  }
   ${bars}
 </svg>`;
 }
@@ -252,18 +292,36 @@ async function main() {
   const now = new Date();
 
   const allDays = [];
-  for (let year = createdAt.getUTCFullYear(); year <= now.getUTCFullYear(); year++) {
+  let totalRestricted = 0;
+  let thisYearRestricted = 0;
+  const currentYear = now.getUTCFullYear();
+  for (let year = createdAt.getUTCFullYear(); year <= currentYear; year++) {
     const from = new Date(Date.UTC(year, 0, 1));
     const to = new Date(Date.UTC(year, 11, 31, 23, 59, 59));
     // Clamp the first window to the account creation date.
     const start = from < createdAt ? createdAt : from;
     const end = to > now ? now : to;
     if (start > end) continue;
-    const days = await getYearDays(USER, start, end);
+    const { days, restricted } = await getYearData(USER, start, end);
     allDays.push(...days);
+    totalRestricted += restricted;
+    if (year === currentYear) thisYearRestricted = restricted;
   }
 
-  const stats = computeStats(allDays);
+  // Private count for the current month (no per-day data exists for these).
+  const monthStart = new Date(Date.UTC(currentYear, now.getUTCMonth(), 1));
+  const thisMonthRestricted = await getRestricted(USER, monthStart, now);
+
+  // Public daily stats drive streak / best day / sparkline (no private daily
+  // data exists); the headline totals add the private aggregates on top.
+  const pub = computeStats(allDays);
+  const stats = {
+    ...pub,
+    total: pub.total + totalRestricted,
+    thisYear: pub.thisYear + thisYearRestricted,
+    thisMonth: pub.thisMonth + thisMonthRestricted,
+    inclPrivate: totalRestricted > 0,
+  };
   const svg = buildSvg(stats);
 
   const { writeFile, mkdir } = await import("node:fs/promises");
