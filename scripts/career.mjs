@@ -44,7 +44,7 @@ const MARKS = {
 // Each milestone. `org` renders the full organisation name under the company;
 // `note` renders a small accent line; `future: true` styles an open chapter.
 const CAREER = [
-  { mark: "kiit", range: "Jun 2010", company: "KIIT University", role: "B.Tech, Computer Science" },
+  { mark: "kiit", range: "Jun 2010", company: "KIIT University", role: ["B.Tech,", "Computer Science"] },
   {
     mark: "wipro",
     range: "Oct 2010 – Feb 2015",
@@ -201,7 +201,7 @@ async function buildSvg(entries) {
       yLine += 16;
     }
 
-    const roleLines = wrap(e.role, 18, 2);
+    const roleLines = Array.isArray(e.role) ? e.role : wrap(e.role, 18, 2);
     roleLines.forEach((ln) => {
       tilesSvg += `<text x="${x}" y="${yLine}" text-anchor="middle" class="role">${esc(
         ln
