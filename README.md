@@ -1,4 +1,4 @@
-<a href="#"><img src="assets/header.svg" alt="Hey there! I’m Sumit Sahoo — Solution Architect, Tech Enthusiast, Open Source Advocate" width="100%"/></a>
+<a href="#"><img src="assets/static/header.svg" alt="Hey there! I’m Sumit Sahoo — Solution Architect, Tech Enthusiast, Open Source Advocate" width="100%"/></a>
 
 <div align="center">
 
@@ -53,7 +53,7 @@
 
 ## 📈 Activity
 
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=sumitsahoo&card_width=1000&hide_longest_streak=true&ring=588DF3&fire=588DF3&currStreakLabel=588DF3" alt="GitHub Streak" /></a>
+<a href="https://github.com/sumitsahoo"><img src="assets/dynamic/activity.svg" alt="GitHub Activity" width="100%" /></a>
 
 ## 📚 Latest Medium Stories
 
@@ -100,29 +100,12 @@ I occasionally publish npm packages that I think will help others. I love open s
 
 ## 💼 Career Journey
 
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': {
-  'cScale0':'#588DF3','cScaleLabel0':'#ffffff',
-  'cScale1':'#3B6FD6','cScaleLabel1':'#ffffff',
-  'cScale2':'#2B57B5','cScaleLabel2':'#ffffff',
-  'cScale3':'#1E40AF','cScaleLabel3':'#ffffff',
-  'cScale4':'#14306B','cScaleLabel4':'#ffffff',
-  'cScaleInv0':'#588DF3','cScaleInv1':'#3B6FD6','cScaleInv2':'#2B57B5',
-  'cScaleInv3':'#1E40AF','cScaleInv4':'#14306B',
-  'lineColor':'#64748B','fontFamily':'Segoe UI, Helvetica, Arial, sans-serif'
-}}}%%
-timeline
-    Oct 2010 - Feb 2015 : Completed B-Tech from KIIT University : Began IT Journey : Wipro Technologies : Software Engineer
-    Feb 2015 - Mar 2017 : IBM : Application Developer
-    Apr 2017 - Feb 2020 : Dell Technologies : Advisor : Principal Software Engineer
-    Mar 2020 - Jul 2026 : VOIS : Solution Architect
-    Aug 2026 - Present : To Be Revealed 🤫 : New Chapter
-```
+<a href="#"><img src="assets/static/career.svg" alt="Career Journey" width="100%" /></a>
 
 ### Thanks for visiting!
 
 _P.S. — You scrolled all the way down? Here's a snake eating my contribution graph as a reward._
 
-<a href="#"><img width="1000" src="assets/github-contribution.svg" alt="snake"/></a>
+<a href="#"><img width="1000" src="assets/dynamic/github-contribution.svg" alt="snake"/></a>
 
-<a href="#"><img src="assets/footer.svg" alt="" width="100%"/></a>
+<a href="#"><img src="assets/static/footer.svg" alt="" width="100%"/></a>

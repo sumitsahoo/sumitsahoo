@@ -54,33 +54,45 @@ jobs:
           # Use repository owner's GitHub username for contribution data
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-contribution.svg
-            assets/github-contribution-dark.svg?palette=github-dark
+            assets/dynamic/github-contribution.svg
+            assets/dynamic/github-contribution-dark.svg?palette=github-dark
         # Continue even if generation fails (e.g., GitHub API rate limit)
         continue-on-error: true
 
-      # Step 3: Commit and push generated SVG files to main branch
-      # Only runs if SVG generation was successful
+      # Step 3: Generate the self-hosted Activity stats card
+      # Pulls contribution data from GitHub's GraphQL API and renders an SVG.
+      # No third-party widget — the README points at the committed static file.
+      - name: Generate activity stats card
+        id: generate-activity
+        env:
+          # GraphQL API needs a token; the built-in token covers public data.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/activity.mjs ${{ github.repository_owner }} assets/dynamic/activity.svg
+        # Continue even if generation fails (e.g., GitHub API rate limit)
+        continue-on-error: true
+
+      # Step 4: Commit and push generated SVG files to main branch
+      # Runs if either generator succeeded
       - name: Commit and push SVG files to main
-        if: steps.generate-snake.outcome == 'success'
+        if: steps.generate-snake.outcome == 'success' || steps.generate-activity.outcome == 'success'
         run: |
           # Configure git user for the commit
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          
-          # Stage only the generated SVG files
-          git add assets/github-contribution.svg assets/github-contribution-dark.svg
-          
+
+          # Stage only the generated SVG files (ignore any that weren't produced)
+          git add assets/dynamic/github-contribution.svg assets/dynamic/github-contribution-dark.svg assets/dynamic/activity.svg 2>/dev/null || true
+
           # Commit only if there are staged changes (prevents empty commits)
           # The [skip ci] tag prevents this commit from triggering another workflow run
-          git diff --staged --quiet || git commit -m "chore: update GitHub contribution animation ($(date +'%Y-%m-%d %H:%M:%S UTC')) [skip ci]"
-          
+          git diff --staged --quiet || git commit -m "chore: update GitHub activity & contribution animation ($(date +'%Y-%m-%d %H:%M:%S UTC')) [skip ci]"
+
           # Push changes to remote repository
           git push
 
-      # Step 4: Report if generation failed
+      # Step 5: Report if generation failed
       - name: Report generation failure
-        if: steps.generate-snake.outcome == 'failure'
+        if: steps.generate-snake.outcome == 'failure' || steps.generate-activity.outcome == 'failure'
         run: |
-          echo "::warning::Snake animation generation failed. This may be due to GitHub API rate limits or network issues."
+          echo "::warning::A generator step failed. This may be due to GitHub API rate limits or network issues."
           echo "The workflow will retry on the next scheduled run or manual trigger."
