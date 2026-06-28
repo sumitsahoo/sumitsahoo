@@ -4,9 +4,11 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
 
-[![GitHub Stars](https://img.shields.io/github/stars/sumitsahoo?style=flat&logo=github&color=588DF3&labelColor=555)](https://github.com/sumitsahoo)
-[![GitHub Followers](https://img.shields.io/github/followers/sumitsahoo?style=flat&logo=github&color=588DF3&labelColor=555)](https://github.com/sumitsahoo?tab=followers)
-[![Profile Views](https://komarev.com/ghpvc/?username=sumitsahoo&style=flat&color=588DF3&label=profile+views)](https://github.com/sumitsahoo)
+<a href="https://github.com/sumitsahoo"><img src="assets/dynamic/stats.svg" alt="GitHub Stats" /></a>
+
+<!-- Hidden 1px counter: keeps komarev incrementing on real profile visits.
+     The live value is shown in the "Profile Views" chip above (refreshed by the weekly workflow). -->
+<img src="https://komarev.com/ghpvc/?username=sumitsahoo&label=" alt="" width="1" height="1" />
 
 </div>
 

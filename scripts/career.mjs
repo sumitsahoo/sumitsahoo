@@ -7,7 +7,7 @@
 // correctly), connected by chevrons that animate left-to-right — a glowing
 // "progress" sweep that conveys career progression.
 //
-// Brand marks are read from scripts/logos/*.svg (authentic vector logos, used
+// Brand marks are read from assets/logos/*.svg (authentic vector logos, used
 // to factually identify real employers). The data rarely changes, so this is a
 // "static" asset: run the script when your career changes and commit the output
 // to assets/static/career.svg.
@@ -21,7 +21,7 @@ import { fileURLToPath } from "node:url";
 
 const OUT = process.argv[2] || "assets/static/career.svg";
 const ACCENT = "#588DF3";
-const LOGO_DIR = new URL("./logos/", import.meta.url);
+const LOGO_DIR = new URL("../assets/logos/", import.meta.url);
 
 // Bundled glyphs (0..24 viewBox) for non-company marks.
 const GLYPHS = {
@@ -29,7 +29,7 @@ const GLYPHS = {
   sparkle: "M12 2l1.9 6.1L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.9z",
 };
 
-// Mark definitions. `file` reads a logo from scripts/logos/; `color` tints a
+// Mark definitions. `file` reads a logo from assets/logos/; `color` tints a
 // monochrome logo (paths without their own fill). `box` is the fraction of the
 // tile the mark occupies (wide logos like IBM need more width).
 const MARKS = {
