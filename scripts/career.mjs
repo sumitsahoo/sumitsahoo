@@ -33,7 +33,7 @@ const GLYPHS = {
 // monochrome logo (paths without their own fill). `box` is the fraction of the
 // tile the mark occupies (wide logos like IBM need more width).
 const MARKS = {
-  kiit: { glyph: "cap", color: ACCENT, box: 0.5 },
+  kiit: { file: "kiit.svg", box: 0.62 },
   wipro: { file: "wipro.svg", box: 0.62 },
   ibm: { file: "ibm.svg", box: 0.78 },
   dell: { file: "dell.svg", color: "#007DB8", box: 0.56 },
@@ -44,7 +44,7 @@ const MARKS = {
 // Each milestone. `org` renders the full organisation name under the company;
 // `note` renders a small accent line; `future: true` styles an open chapter.
 const CAREER = [
-  { mark: "kiit", range: "Jun 2010", company: "KIIT University", role: "B.Tech Graduate" },
+  { mark: "kiit", range: "Jun 2010", company: "KIIT University", role: "B.Tech, Computer Science" },
   {
     mark: "wipro",
     range: "Oct 2010 – Feb 2015",
@@ -102,7 +102,9 @@ function wrap(text, maxChars, maxLines = 2) {
   return lines;
 }
 
-// Read a logo file → { viewBox, inner } with XML noise stripped.
+// Read a logo file → { viewBox, inner } with XML noise stripped. Handles
+// Inkscape exports, whose namespaced (sodipodi:/inkscape:/rdf:) elements and
+// attributes would otherwise make the embedding SVG invalid XML.
 async function loadLogo(file) {
   let raw = await readFile(new URL(file, LOGO_DIR), "utf8");
   raw = raw
@@ -110,9 +112,19 @@ async function loadLogo(file) {
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<!DOCTYPE[\s\S]*?>/gi, "")
     .replace(/<title>[\s\S]*?<\/title>/gi, "")
-    .replace(/<desc>[\s\S]*?<\/desc>/gi, "");
+    .replace(/<desc>[\s\S]*?<\/desc>/gi, "")
+    .replace(/<metadata[\s\S]*?<\/metadata>/gi, "");
   const viewBox = (raw.match(/viewBox="([^"]*)"/i) || [])[1] || "0 0 24 24";
-  const inner = (raw.match(/<svg\b[^>]*>([\s\S]*)<\/svg>/i) || [])[1] || "";
+  let inner = (raw.match(/<svg\b[^>]*>([\s\S]*)<\/svg>/i) || [])[1] || "";
+  inner = inner
+    // drop namespaced elements (e.g. sodipodi:namedview) — paired then empty
+    .replace(/<(\w+):[\w-]+[^>]*>[\s\S]*?<\/\1:[\w-]+>/g, "")
+    .replace(/<\w+:[\w-]+[^>]*\/?>/g, "")
+    // drop namespaced attributes (inkscape:*, sodipodi:*), keeping xlink:*
+    .replace(/\s(?!xlink:)[\w-]+:[\w-]+="[^"]*"/g, "")
+    // drop empty defs
+    .replace(/<defs[^>]*>\s*<\/defs>/gi, "")
+    .replace(/<defs[^>]*\/>/gi, "");
   return { viewBox, inner: inner.trim() };
 }
 
