@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
 
 <a href="https://github.com/sumitsahoo"><img src="assets/dynamic/stats.svg" alt="GitHub Stats" /></a>
 
@@ -75,13 +75,10 @@
 
 I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community!
 
-[![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=total%20downloads&color=588DF3&labelColor=555)](#)
-
-| Package | Downloads |
-| :--- | :--- |
-| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine) | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=588DF3&labelColor=555)](#) |
-| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=588DF3&labelColor=555)](#) |
-| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=588DF3&labelColor=555)](#) |
+<a href="https://www.npmjs.com/~sumitsahoo"><img src="assets/dynamic/npm/total.svg" alt="Total npm downloads in the last year" height="52" /></a>
+<a href="https://www.npmjs.com/package/web-haptic-engine"><img src="assets/dynamic/npm/web-haptic-engine.svg" alt="web-haptic-engine — npm downloads in the last year" height="52" /></a>
+<a href="https://www.npmjs.com/package/modern-barcode-scanner"><img src="assets/dynamic/npm/modern-barcode-scanner.svg" alt="modern-barcode-scanner — npm downloads in the last year" height="52" /></a>
+<a href="https://www.npmjs.com/package/detect-primary-camera"><img src="assets/dynamic/npm/detect-primary-camera.svg" alt="detect-primary-camera — npm downloads in the last year" height="52" /></a>
 
 ## 💼 Career Journey
 

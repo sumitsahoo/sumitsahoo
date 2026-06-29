@@ -154,25 +154,6 @@ function computeStats(days) {
 
 const fmt = (n) => n.toLocaleString("en-US");
 
-// Approximate text width (Segoe UI semibold) in px — used to size the identity
-// pill without a font library.
-const NARROW = "iIl.,:;'|!ftj()[]/ ";
-const WIDE = "mwMW";
-const CAPS = "ABCDEFGHKNOPQRSUVXYZ";
-function charW(ch) {
-  if (ch === "@") return 0.74;
-  if (WIDE.includes(ch)) return 0.95;
-  if (NARROW.includes(ch)) return 0.34;
-  if (CAPS.includes(ch)) return 0.7;
-  if (ch >= "0" && ch <= "9") return 0.56;
-  return 0.54;
-}
-function textW(s, size) {
-  let t = 0;
-  for (const ch of s) t += charW(ch);
-  return t * size;
-}
-
 function sparklinePath(values, x, y, w, h) {
   if (values.length === 0) return "";
   const max = Math.max(1, ...values);
@@ -212,9 +193,10 @@ function statBlock(x, value, label, w) {
 
 function buildSvg(s) {
   const W = 1000;
-  // No in-card title (the README already has a "GitHub Activity" heading); only
-  // the username + GitHub mark sit at the top-right, content shifted up to suit.
-  const H = 212;
+  // No in-card title or identity pill — the README already has a "GitHub
+  // Activity" heading, so the card is just the stats + sparkline with tight,
+  // symmetric vertical padding.
+  const H = 168;
   const pad = 40;
 
   const stats = [
@@ -226,7 +208,7 @@ function buildSvg(s) {
   ];
 
   const colW = (W - pad * 2) / stats.length;
-  const statY = 88;
+  const statY = 52;
   let statsSvg = "";
   stats.forEach((st, i) => {
     const x = pad + i * colW;
@@ -244,23 +226,9 @@ function buildSvg(s) {
     }
   });
 
-  // Top-right identity pill: GitHub mark + @username (replaces the removed
-  // title). Left-anchored inside a right-aligned pill, so spacing is exact.
-  const uname = `@${USER}`;
-  const idLogo = 15;
-  const idGap = 8;
-  const idPadL = 12;
-  const idPadR = 14;
-  const pillH = 28;
-  const pillW = idPadL + idLogo + idGap + Math.ceil(textW(uname, 13)) + idPadR;
-  const idInset = 20; // equal padding from the card's top and right edges
-  const pillX = W - idInset - pillW;
-  const pillY = idInset;
-  const pillCY = pillY + pillH / 2;
-
   // Sparkline of last 30 days across the bottom.
   const sparkX = pad;
-  const sparkY = 160;
+  const sparkY = 116;
   const sparkW = W - pad * 2;
   const sparkH = 28;
   const bars = sparklineBars(s.spark, sparkX, sparkY, sparkW, sparkH);
@@ -290,9 +258,6 @@ function buildSvg(s) {
       }
     }
     .card { fill: var(--bg); stroke: var(--border); }
-    .identity { fill: var(--title); font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
-    .id-pill { fill: var(--track); stroke: var(--border); stroke-width: 1; }
-    .gh-logo { fill: var(--title); }
     .stat-value { fill: var(--value); font: 700 26px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
     .stat-label { fill: var(--label); font: 400 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .3px; }
     .divider { stroke: var(--divider); stroke-width: 1; }
@@ -300,10 +265,6 @@ function buildSvg(s) {
   </style>
 
   <rect class="card" x="1" y="1" width="${W - 2}" height="${H - 2}" rx="16" stroke-width="1.5" />
-
-  <rect x="${pillX}" y="${pillY}" width="${pillW}" height="${pillH}" rx="${pillH / 2}" class="id-pill" />
-  <svg x="${pillX + idPadL}" y="${pillCY - idLogo / 2}" width="${idLogo}" height="${idLogo}" viewBox="0 0 24 24"><path class="gh-logo" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg>
-  <text x="${pillX + idPadL + idLogo + idGap}" y="${pillCY + 4.5}" class="identity">${uname}</text>
 
   ${statsSvg}
 

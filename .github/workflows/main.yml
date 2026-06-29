@@ -83,17 +83,25 @@ jobs:
         # Continue even if generation fails (e.g., GitHub API rate limit)
         continue-on-error: true
 
-      # Step 5: Commit and push generated SVG files to main branch
+      # Step 5: Generate the self-hosted NPM downloads chip strip
+      # Last-year download counts from the public npm registry (no token needed).
+      - name: Generate npm downloads card
+        id: generate-npm
+        run: node scripts/npm.mjs assets/dynamic/npm
+        # Continue even if generation fails (e.g., npm API rate limit)
+        continue-on-error: true
+
+      # Step 6: Commit and push generated SVG files to main branch
       # Runs if any generator succeeded
       - name: Commit and push SVG files to main
-        if: steps.generate-snake.outcome == 'success' || steps.generate-activity.outcome == 'success' || steps.generate-stats.outcome == 'success'
+        if: steps.generate-snake.outcome == 'success' || steps.generate-activity.outcome == 'success' || steps.generate-stats.outcome == 'success' || steps.generate-npm.outcome == 'success'
         run: |
           # Configure git user for the commit
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
           # Stage only the generated SVG files (ignore any that weren't produced)
-          git add assets/dynamic/github-contribution.svg assets/dynamic/github-contribution-dark.svg assets/dynamic/activity.svg assets/dynamic/stats.svg 2>/dev/null || true
+          git add assets/dynamic/github-contribution.svg assets/dynamic/github-contribution-dark.svg assets/dynamic/activity.svg assets/dynamic/stats.svg assets/dynamic/npm 2>/dev/null || true
 
           # Commit only if there are staged changes (prevents empty commits)
           # The [skip ci] tag prevents this commit from triggering another workflow run
@@ -102,9 +110,9 @@ jobs:
           # Push changes to remote repository
           git push
 
-      # Step 6: Report if generation failed
+      # Step 7: Report if generation failed
       - name: Report generation failure
-        if: steps.generate-snake.outcome == 'failure' || steps.generate-activity.outcome == 'failure' || steps.generate-stats.outcome == 'failure'
+        if: steps.generate-snake.outcome == 'failure' || steps.generate-activity.outcome == 'failure' || steps.generate-stats.outcome == 'failure' || steps.generate-npm.outcome == 'failure'
         run: |
           echo "::warning::A generator step failed. This may be due to GitHub API rate limits or network issues."
           echo "The workflow will retry on the next scheduled run or manual trigger."
