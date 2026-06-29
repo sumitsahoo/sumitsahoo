@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="48" viewBox="0 0 162 48" fill="none" role="img" aria-label="Stack Overflow">
+  <defs>
+    <filter id="s" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-color="#1f2328" flood-opacity="0.12" />
+    </filter>
+  </defs>
+  <style>
+    :root { --chip-bg: #ffffff; --chip-border: #e3e9f2; --chip-fg: #1f2328; }
+    @media (prefers-color-scheme: dark) {
+      :root { --chip-bg: #161b22; --chip-border: #283446; --chip-fg: #e6edf3; }
+    }
+    .chip { fill: var(--chip-bg); stroke: var(--chip-border); stroke-width: 1; }
+    .chip-label { fill: var(--chip-fg); font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .1px; }
+  </style>
+  <rect x="6" y="6" width="150" height="36" rx="10" class="chip" filter="url(#s)" />
+  <rect x="12" y="12" width="24" height="24" rx="7" fill="#F58025" />
+  <svg x="16.5" y="16.5" width="15" height="15" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><g fill="#ffffff" fill-rule="nonzero"><path d="M15.725 0l-1.72 1.277 6.39 8.588 1.716-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.904-1.94-9.701-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154Z"/></g></svg>
+  <text x="45" y="28.5" class="chip-label">Stack Overflow</text>
+</svg>
