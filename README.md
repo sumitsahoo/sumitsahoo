@@ -23,7 +23,9 @@
 
 ## 🛠️ Tech Stack
 
-<a href="#"><img src="assets/static/techstack.svg" alt="Tech Stack — AI &amp; Agentic Frameworks, Programming Languages, Web &amp; Mobile, Databases, Infrastructure &amp; Cloud" width="100%" /></a>
+_These are the tools I reach for most — my favorites, not the limits. I'm always happy to dive into whatever a project calls for._
+
+<a href="#"><img src="assets/static/techstack.svg" alt="Tech Stack — AI &amp; Agentic Frameworks, Programming Languages, Web &amp; Mobile, Databases, Infrastructure &amp; Cloud, Message Queue" width="100%" /></a>
 
 ## 🔗 Connect With Me
 

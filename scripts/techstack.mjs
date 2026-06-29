@@ -31,6 +31,8 @@ const CAT_ICONS = {
     "M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z",
   database:
     "M12 3C7.58 3 4 4.34 4 6v12c0 1.66 3.58 3 8 3s8-1.34 8-3V6c0-1.66-3.58-3-8-3zm6 15c0 .31-2.13 1.5-6 1.5s-6-1.19-6-1.5v-2.23c1.61.78 3.92 1.23 6 1.23s4.39-.45 6-1.23V18zm0-4.55c-1.3.95-3.58 1.55-6 1.55s-4.7-.6-6-1.55V11.3c1.61.78 3.92 1.2 6 1.2s4.39-.42 6-1.2v2.15zM12 11C8.13 11 6 9.81 6 9.5V7.27C7.61 8.05 9.92 8.5 12 8.5s4.39-.45 6-1.23V9.5c0 .31-2.13 1.5-6 1.5z",
+  queue:
+    "M15 4v7H5.17L4 12.17V4h11m1-2H3c-.55 0-1 .45-1 1v14l4-4h10c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm5 4h-2v9H6v2c0 .55.45 1 1 1h11l4 4V7c0-.55-.45-1-1-1z",
 };
 
 // Each tech: name, the bundled logo file (slug.svg), and the solid brand colour
@@ -107,6 +109,15 @@ const CATEGORIES = [
       { name: "Oracle OCI", logo: "oracle", color: "#C74634" },
       { name: "Docker", logo: "docker", color: "#2496ED" },
       { name: "K8s", logo: "kubernetes", color: "#326CE5" },
+    ],
+  },
+  {
+    label: "Message Queue",
+    icon: "queue",
+    items: [
+      { name: "Pub/Sub", logo: "gcp", color: "#4285F4" },
+      { name: "SQS/SNS", logo: "aws", color: "#FF9900" },
+      { name: "Kafka", logo: "kafka", color: "#231F20" },
     ],
   },
 ];

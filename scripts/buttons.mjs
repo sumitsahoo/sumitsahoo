@@ -2,14 +2,16 @@
 // Reusable link-button generator
 // =============================================================================
 // Emits small, reusable light/dark-aware button SVGs into assets/static/buttons/
-// in the same chip design language as techstack/social. Two variants:
+// in the SAME chip design language as the stats / npm / techstack cards: a
+// white-or-dark rounded card with a 1px border + soft shadow, an accent-tinted
+// rounded-square icon badge, and a label. Two ready-made buttons:
 //
-//   • neutral  — a chip-button (brand icon tile + label), e.g. "View on GitHub"
-//   • accent   — a solid-accent CTA (inline icon + label),  e.g. "Live Demo"
+//   • view-on-github.svg — GitHub mark badge + "View on GitHub"
+//   • live-<key>.svg      — globe badge + production URL + a trailing ↗
 //
 // SVGs embedded via <img> can't carry links, so the README wraps each button in
-// its own <a href>. The same button image is reused across every project (the
-// href differs per project), so adding a project needs no new asset.
+// its own <a href>. "View on GitHub" is identical for every project (only the
+// href differs), so it stays a single reusable file.
 //
 // Usage:  node scripts/buttons.mjs [outDir]
 // =============================================================================
@@ -59,31 +61,53 @@ async function loadLogo(slug) {
   return { viewBox, inner };
 }
 
-// --- buttons -----------------------------------------------------------------
+// --- unified chip-button -----------------------------------------------------
 
 const BTN_H = 34;
 const M = 5; // margin so the drop shadow isn't clipped
+const BADGE = 24; // accent-tinted icon tile
+const ICON = 14;
+const PAD_L = 6;
+const GAP = 9;
+const PAD_R = 13;
+const ARROW = "↗";
+const ARROW_GAP = 6;
 
 const SHADOW = `<filter id="s" x="-20%" y="-30%" width="140%" height="160%"><feDropShadow dx="0" dy="1.5" stdDeviation="2.5" flood-color="#1f2328" flood-opacity="0.12" /></filter>`;
 
 const THEME = `:root { --chip-bg: #ffffff; --chip-border: #e3e9f2; --chip-fg: #1f2328; }
     @media (prefers-color-scheme: dark) { :root { --chip-bg: #161b22; --chip-border: #283446; --chip-fg: #e6edf3; } }`;
 
-// Neutral chip-button: brand icon tile + label (e.g. View on GitHub).
-async function neutralButton(label, logoSlug, tileColor) {
-  const tile = 22;
-  const logo = 14;
-  const padL = 6;
-  const gap = 9;
-  const padR = 13;
-  const { viewBox, inner } = await loadLogo(logoSlug);
+// Intrinsic content width of a chip-button (no fixed-width override).
+function chipButtonW(label, trailing = "") {
+  const labelW = Math.ceil(textW(label, 13));
+  const trailW = trailing ? ARROW_GAP + Math.ceil(textW(trailing, 13)) : 0;
+  return PAD_L + BADGE + GAP + labelW + trailW + PAD_R;
+}
 
-  const cw = padL + tile + gap + Math.ceil(textW(label, 13)) + padR;
+// White/dark chip card + accent icon badge + label (+ optional trailing glyph).
+// `viewBox`/`inner` render the icon, recoloured to the accent. Pass `fixedCw` to
+// force a shared card width across a set (e.g. the live buttons): the label
+// stays left-aligned and the trailing glyph is pinned to the right edge so the
+// buttons line up uniformly.
+function chipButton(label, viewBox, inner, trailing = "", fixedCw = 0) {
+  const labelW = Math.ceil(textW(label, 13));
+  const cw = fixedCw || chipButtonW(label, trailing);
   const W = cw + M * 2;
   const H = BTN_H + M * 2;
-  const ty = M + (BTN_H - tile) / 2;
-  const lx = M + padL + (tile - logo) / 2;
-  const ly = ty + (tile - logo) / 2;
+
+  const cy = M + BTN_H / 2;
+  const badgeX = M + PAD_L;
+  const badgeY = cy - BADGE / 2;
+  const iconX = badgeX + (BADGE - ICON) / 2;
+  const iconY = cy - ICON / 2;
+  const textX = M + PAD_L + BADGE + GAP;
+  const trailW = trailing ? Math.ceil(textW(trailing, 13)) : 0;
+  // Pin the glyph to the right edge when a shared width is forced; otherwise it
+  // sits right after the label.
+  const trailX = fixedCw
+    ? M + cw - PAD_R - trailW
+    : textX + labelW + ARROW_GAP;
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="${esc(label)}">
   <defs>${SHADOW}</defs>
@@ -91,51 +115,17 @@ async function neutralButton(label, logoSlug, tileColor) {
     ${THEME}
     .btn { fill: var(--chip-bg); stroke: var(--chip-border); stroke-width: 1; }
     .btn-label { fill: var(--chip-fg); font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .1px; }
+    .btn-arrow { fill: ${ACCENT}; font: 700 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
   </style>
   <rect x="${M}" y="${M}" width="${cw}" height="${BTN_H}" rx="10" class="btn" filter="url(#s)" />
-  <rect x="${M + padL}" y="${ty}" width="${tile}" height="${tile}" rx="7" fill="${tileColor}" />
-  <svg x="${lx}" y="${ly}" width="${logo}" height="${logo}" viewBox="${viewBox}"><g fill="#ffffff">${inner}</g></svg>
-  <text x="${M + padL + tile + gap}" y="${M + BTN_H / 2 + 4.5}" class="btn-label">${esc(label)}</text>
+  <rect x="${badgeX}" y="${badgeY}" width="${BADGE}" height="${BADGE}" rx="7" fill="${ACCENT}" fill-opacity="0.14" />
+  <svg x="${iconX}" y="${iconY}" width="${ICON}" height="${ICON}" viewBox="${viewBox}"><g fill="${ACCENT}">${inner}</g></svg>
+  <text x="${textX}" y="${cy + 4.5}" class="btn-label">${esc(label)}</text>
+  ${trailing ? `<text x="${trailX}" y="${cy + 4.5}" class="btn-arrow">${esc(trailing)}</text>` : ""}
 </svg>`;
 }
 
-const R = 10; // outer corner radius (shared by buttons)
-
-// Path for a rect with only its LEFT corners rounded (right edge straight).
-function leftRoundedRect(x, y, w, h, r) {
-  return `M${x + r},${y} H${x + w} V${y + h} H${x + r} Q${x},${y + h} ${x},${y + h - r} V${y + r} Q${x},${y} ${x + r},${y} Z`;
-}
-
-// Two-tone URL CTA: a globe segment + a URL segment, split down the middle —
-// a modern segmented "open the live site" button. `urlSegW` is shared across a
-// set so every button comes out the same total width.
-function urlButton(domain, urlSegW, glyph = "globe") {
-  const iconSegW = 40;
-  const icon = 16;
-  const cw = iconSegW + urlSegW;
-  const W = cw + M * 2;
-  const H = BTN_H + M * 2;
-  const x0 = M;
-  const y0 = M;
-  const iconX = x0 + (iconSegW - icon) / 2;
-  const iconY = y0 + (BTN_H - icon) / 2;
-  const urlCX = x0 + iconSegW + urlSegW / 2;
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="${esc(domain)}">
-  <defs>${SHADOW}</defs>
-  <style>
-    .url-label { fill: #ffffff; font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .15px; }
-  </style>
-  <rect x="${x0}" y="${y0}" width="${cw}" height="${BTN_H}" rx="${R}" fill="${ACCENT}" filter="url(#s)" />
-  <path d="${leftRoundedRect(x0, y0, iconSegW, BTN_H, R)}" fill="#000000" fill-opacity="0.16" />
-  <line x1="${x0 + iconSegW}" y1="${y0 + 6}" x2="${x0 + iconSegW}" y2="${y0 + BTN_H - 6}" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1" />
-  <svg x="${iconX}" y="${iconY}" width="${icon}" height="${icon}" viewBox="0 0 24 24"><path d="${GLYPHS[glyph]}" fill="#ffffff" /></svg>
-  <text x="${urlCX}" y="${y0 + BTN_H / 2 + 4.5}" text-anchor="middle" class="url-label">${esc(domain)}</text>
-</svg>`;
-}
-
-// Live-site CTAs show the real production URL so it's memorable. "View on
-// GitHub" is identical for every project, so it stays a single reusable file.
+// Live-site CTAs show the real production URL so it's memorable.
 const LIVE = [
   { key: "cloakpdf", domain: "pdf.cloakyard.com" },
   { key: "cloakresume", domain: "resume.cloakyard.com" },
@@ -145,14 +135,23 @@ const LIVE = [
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
 
+  const gh = await loadLogo("github");
+  const globe = { viewBox: "0 0 24 24", inner: `<path d="${GLYPHS.globe}" />` };
+
   const files = {
-    "view-on-github.svg": await neutralButton("View on GitHub", "github", "#181717"),
+    "view-on-github.svg": chipButton("View on GitHub", gh.viewBox, gh.inner),
   };
-  // One shared URL-segment width (from the longest domain) → uniform buttons.
-  const urlPad = 18;
-  const maxTextW = Math.max(...LIVE.map((p) => textW(p.domain, 13)));
-  const urlSegW = Math.ceil(maxTextW) + urlPad * 2;
-  for (const p of LIVE) files[`live-${p.key}.svg`] = urlButton(p.domain, urlSegW);
+  // One shared width (from the longest domain) so every live button is uniform.
+  const liveCw = Math.max(...LIVE.map((p) => chipButtonW(p.domain, ARROW)));
+  for (const p of LIVE) {
+    files[`live-${p.key}.svg`] = chipButton(
+      p.domain,
+      globe.viewBox,
+      globe.inner,
+      ARROW,
+      liveCw
+    );
+  }
 
   for (const [name, svg] of Object.entries(files)) {
     await writeFile(`${OUT_DIR}/${name}`, svg, "utf8");
