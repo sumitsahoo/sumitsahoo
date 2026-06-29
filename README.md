@@ -54,22 +54,22 @@
 
 > Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-588DF3?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakpdf)
-[![Try CloakPDF](https://img.shields.io/badge/Try%20CloakPDF-pdf.cloakyard.com-588DF3?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://pdf.cloakyard.com/)
+<a href="https://github.com/cloakyard/cloakpdf"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
+<a href="https://pdf.cloakyard.com/"><img src="assets/static/buttons/live-demo.svg" alt="Live Demo" height="34" /></a>
 
 ### [CloakResume](https://resume.cloakyard.com/) — A privacy-first, open-source resume builder
 
 > Craft beautiful, professional resumes entirely in your browser. Your data never leaves your device.
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-588DF3?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakresume)
-[![Try CloakResume](https://img.shields.io/badge/Try%20CloakResume-resume.cloakyard.com-588DF3?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://resume.cloakyard.com/)
+<a href="https://github.com/cloakyard/cloakresume"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
+<a href="https://resume.cloakyard.com/"><img src="assets/static/buttons/live-demo.svg" alt="Live Demo" height="34" /></a>
 
 ### [CloakImg](https://img.cloakyard.com/) — A minimal, privacy-first photo editor
 
 > A clean, browser-based photo editor that respects your photos. Crop, adjust, and enhance — everything stays on your device.
 
-[![View on GitHub](https://img.shields.io/badge/View%20on%20GitHub-Source%20Code-588DF3?style=flat&logo=github&logoColor=white&labelColor=555)](https://github.com/cloakyard/cloakimg)
-[![Try CloakImg](https://img.shields.io/badge/Try%20CloakImg-img.cloakyard.com-588DF3?style=flat&logo=googlechrome&logoColor=white&labelColor=555)](https://img.cloakyard.com/)
+<a href="https://github.com/cloakyard/cloakimg"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
+<a href="https://img.cloakyard.com/"><img src="assets/static/buttons/live-demo.svg" alt="Live Demo" height="34" /></a>
 
 ## 📦 NPM Packages
 
