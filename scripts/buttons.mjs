@@ -99,27 +99,38 @@ async function neutralButton(label, logoSlug, tileColor) {
 </svg>`;
 }
 
-// Accent CTA: solid-accent pill, inline white glyph + label (e.g. Live Demo).
-function accentButton(label, glyph) {
-  const icon = 16;
-  const padL = 14;
-  const gap = 8;
-  const padR = 16;
+const R = 10; // outer corner radius (shared by buttons)
 
-  const cw = padL + icon + gap + Math.ceil(textW(label, 13)) + padR;
+// Path for a rect with only its LEFT corners rounded (right edge straight).
+function leftRoundedRect(x, y, w, h, r) {
+  return `M${x + r},${y} H${x + w} V${y + h} H${x + r} Q${x},${y + h} ${x},${y + h - r} V${y + r} Q${x},${y} ${x + r},${y} Z`;
+}
+
+// Two-tone URL CTA: a globe segment + a URL segment, split down the middle —
+// a modern segmented "open the live site" button. `urlSegW` is shared across a
+// set so every button comes out the same total width.
+function urlButton(domain, urlSegW, glyph = "globe") {
+  const iconSegW = 40;
+  const icon = 16;
+  const cw = iconSegW + urlSegW;
   const W = cw + M * 2;
   const H = BTN_H + M * 2;
-  const iy = M + (BTN_H - icon) / 2;
+  const x0 = M;
+  const y0 = M;
+  const iconX = x0 + (iconSegW - icon) / 2;
+  const iconY = y0 + (BTN_H - icon) / 2;
+  const urlCX = x0 + iconSegW + urlSegW / 2;
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="${esc(label)}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" fill="none" role="img" aria-label="${esc(domain)}">
   <defs>${SHADOW}</defs>
   <style>
-    .cta { fill: ${ACCENT}; }
-    .cta-label { fill: #ffffff; font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .1px; }
+    .url-label { fill: #ffffff; font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .15px; }
   </style>
-  <rect x="${M}" y="${M}" width="${cw}" height="${BTN_H}" rx="10" class="cta" filter="url(#s)" />
-  <svg x="${M + padL}" y="${iy}" width="${icon}" height="${icon}" viewBox="0 0 24 24"><path d="${GLYPHS[glyph]}" fill="#ffffff" /></svg>
-  <text x="${M + padL + icon + gap}" y="${M + BTN_H / 2 + 4.5}" class="cta-label">${esc(label)}</text>
+  <rect x="${x0}" y="${y0}" width="${cw}" height="${BTN_H}" rx="${R}" fill="${ACCENT}" filter="url(#s)" />
+  <path d="${leftRoundedRect(x0, y0, iconSegW, BTN_H, R)}" fill="#000000" fill-opacity="0.16" />
+  <line x1="${x0 + iconSegW}" y1="${y0 + 6}" x2="${x0 + iconSegW}" y2="${y0 + BTN_H - 6}" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1" />
+  <svg x="${iconX}" y="${iconY}" width="${icon}" height="${icon}" viewBox="0 0 24 24"><path d="${GLYPHS[glyph]}" fill="#ffffff" /></svg>
+  <text x="${urlCX}" y="${y0 + BTN_H / 2 + 4.5}" text-anchor="middle" class="url-label">${esc(domain)}</text>
 </svg>`;
 }
 
@@ -137,7 +148,11 @@ async function main() {
   const files = {
     "view-on-github.svg": await neutralButton("View on GitHub", "github", "#181717"),
   };
-  for (const p of LIVE) files[`live-${p.key}.svg`] = accentButton(p.domain, "globe");
+  // One shared URL-segment width (from the longest domain) → uniform buttons.
+  const urlPad = 18;
+  const maxTextW = Math.max(...LIVE.map((p) => textW(p.domain, 13)));
+  const urlSegW = Math.ceil(maxTextW) + urlPad * 2;
+  for (const p of LIVE) files[`live-${p.key}.svg`] = urlButton(p.domain, urlSegW);
 
   for (const [name, svg] of Object.entries(files)) {
     await writeFile(`${OUT_DIR}/${name}`, svg, "utf8");
