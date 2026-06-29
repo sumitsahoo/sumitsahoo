@@ -1,8 +1,8 @@
-<a href="#"><img src="assets/static/header.svg" alt="Hey there! I’m Sumit Sahoo — Solution Architect, Tech Enthusiast, Open Source Advocate" width="100%"/></a>
+<a href="#"><img src="assets/static/header.svg" alt="Hey there! I’m Sumit Sahoo — Solution Architect working in AI, cloud, and open source" width="100%"/></a>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🚀+Building+Scalable+Enterprise+Solutions;🤖+Crafting+AI+Agents+%26+Cloud+Native+Apps;💡+Transforming+Ideas+into+Reality)](https://github.com/sumitsahoo)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🤖+I+build+AI+agents+for+a+living;☁️+Cloud-native+systems,+enterprise+scale;🚗+Car+nerd+the+rest+of+the+time)](https://github.com/sumitsahoo)
 
 <a href="https://github.com/sumitsahoo"><img src="assets/dynamic/stats.svg" alt="GitHub Stats" /></a>
 
@@ -14,16 +14,18 @@
 
 ## 👨‍💻 About Me
 
-> Architect specializing in **enterprise-level software** — designing **scalable, secure solutions** with a deep appreciation for **open-source technologies**.
+> I'm a solution architect. By day I design enterprise systems that need to scale and stay secure. The rest of the time I'm building open-source tools because I genuinely enjoy it.
 
-- 🔭 Currently building **AI Agents** and cloud-native **enterprise applications**
-- 💬 Ask me about **System Design, Cloud Architecture, AI/ML**
-- 🌱 Always learning and exploring new technologies
-- ⚡ Fun fact: I love cars and follow Team-BHP! 🚗
+- 🔭 Currently building AI agents and cloud-native apps at work
+- 💬 Ask me about system design, cloud architecture, or AI/ML
+- 🌱 Usually have a side project or two on the go
+- 🚗 Off the clock I'm a car guy — mostly lurking on Team-BHP
 
 ## 🛠️ Tech Stack
 
-<a href="#"><img src="assets/static/techstack.svg" alt="Tech Stack — AI &amp; Agentic Frameworks, Programming Languages, Web &amp; Mobile, Databases, Infrastructure &amp; Cloud" width="100%" /></a>
+_My usual go-tos, not the full list. I'll happily pick up whatever a project needs._
+
+<a href="#"><img src="assets/static/techstack.svg" alt="Tech Stack capabilities — AI &amp; Agentic Systems, Cloud &amp; Platform, Data &amp; Backend, Product Engineering" width="100%" /></a>
 
 ## 🔗 Connect With Me
 
@@ -50,38 +52,35 @@
 
 ## 🚀 Featured Projects
 
-### [CloakPDF](https://pdf.cloakyard.com/) — A powerful, fully open-source PDF toolkit
+### [CloakPDF](https://pdf.cloakyard.com/) — an open-source PDF toolkit
 
-> Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
+> Merge, split, compress, convert, and more, all in your browser. Nothing ever gets uploaded.
 
 <a href="https://github.com/cloakyard/cloakpdf"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
 <a href="https://pdf.cloakyard.com/"><img src="assets/static/buttons/live-cloakpdf.svg" alt="pdf.cloakyard.com" height="34" /></a>
 
-### [CloakResume](https://resume.cloakyard.com/) — A privacy-first, open-source resume builder
+### [CloakResume](https://resume.cloakyard.com/) — a privacy-first resume builder
 
-> Craft beautiful, professional resumes entirely in your browser. Your data never leaves your device.
+> Put together a clean resume right in your browser. Your data stays on your device.
 
 <a href="https://github.com/cloakyard/cloakresume"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
 <a href="https://resume.cloakyard.com/"><img src="assets/static/buttons/live-cloakresume.svg" alt="resume.cloakyard.com" height="34" /></a>
 
-### [CloakImg](https://img.cloakyard.com/) — A minimal, privacy-first photo editor
+### [CloakImg](https://img.cloakyard.com/) — a lightweight photo editor
 
-> A clean, browser-based photo editor that respects your photos. Crop, adjust, and enhance — everything stays on your device.
+> Crop, adjust, and touch up photos right in the browser. They never leave your device.
 
 <a href="https://github.com/cloakyard/cloakimg"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
 <a href="https://img.cloakyard.com/"><img src="assets/static/buttons/live-cloakimg.svg" alt="img.cloakyard.com" height="34" /></a>
 
 ## 📦 NPM Packages
 
-I occasionally publish npm packages that I think will help others. I love open source and believe in giving back to the community!
+A few small npm packages I've put out over the years. If one of them saves you some time, that's the whole point.
 
-[![NPM Downloads by package author](https://img.shields.io/npm-stat/dy/sumitsahoo?style=flat&logo=npm&label=total%20downloads&color=588DF3&labelColor=555)](#)
-
-| Package | Downloads |
-| :--- | :--- |
-| [web-haptic-engine](https://www.npmjs.com/package/web-haptic-engine) | [![NPM Downloads](https://img.shields.io/npm/dy/web-haptic-engine?style=flat&logo=npm&color=588DF3&labelColor=555)](#) |
-| [modern-barcode-scanner](https://www.npmjs.com/package/modern-barcode-scanner) | [![NPM Downloads](https://img.shields.io/npm/dy/modern-barcode-scanner?style=flat&logo=npm&color=588DF3&labelColor=555)](#) |
-| [detect-primary-camera](https://www.npmjs.com/package/detect-primary-camera) | [![NPM Downloads](https://img.shields.io/npm/dy/detect-primary-camera?style=flat&logo=npm&color=588DF3&labelColor=555)](#) |
+<a href="https://www.npmjs.com/~sumitsahoo"><img src="assets/dynamic/npm/total.svg" alt="Total npm downloads in the last year" height="52" /></a>
+<a href="https://www.npmjs.com/package/web-haptic-engine"><img src="assets/dynamic/npm/web-haptic-engine.svg" alt="web-haptic-engine — npm downloads in the last year" height="52" /></a>
+<a href="https://www.npmjs.com/package/modern-barcode-scanner"><img src="assets/dynamic/npm/modern-barcode-scanner.svg" alt="modern-barcode-scanner — npm downloads in the last year" height="52" /></a>
+<a href="https://www.npmjs.com/package/detect-primary-camera"><img src="assets/dynamic/npm/detect-primary-camera.svg" alt="detect-primary-camera — npm downloads in the last year" height="52" /></a>
 
 ## 💼 Career Journey
 
