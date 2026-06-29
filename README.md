@@ -36,7 +36,7 @@
 <a href="https://stackoverflow.com/users/1293601/sumit-sahoo"><img src="assets/static/social/stackoverflow.svg" alt="Stack Overflow" height="40" /></a>
 <a href="https://www.team-bhp.com/forum/members/newenergy.html"><img src="assets/static/social/teambhp.svg" alt="Team-BHP" height="40" /></a>
 
-## 📈 Activity
+## 📈 GitHub Activity
 
 <a href="https://github.com/sumitsahoo"><img src="assets/dynamic/activity.svg" alt="GitHub Activity" width="100%" /></a>
 

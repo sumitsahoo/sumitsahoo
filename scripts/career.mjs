@@ -152,7 +152,10 @@ async function renderMark(mark, cx, cy, T) {
 
 async function buildSvg(entries) {
   const W = 1000;
-  const H = 248;
+  // No in-card header (the README already has a "Career Journey" heading); the
+  // timeline content is shifted up by SHIFT and the card height trimmed to suit.
+  const SHIFT = 40;
+  const H = 248 - SHIFT;
   const pad = 40;
 
   const n = entries.length;
@@ -245,9 +248,6 @@ async function buildSvg(entries) {
       }
     }
     .card { fill: var(--bg); stroke: var(--border); }
-    .title { fill: var(--title); font: 600 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
-    .title-accent { fill: ${ACCENT}; }
-    .icon { fill: var(--title); }
     .range { fill: var(--label); font: 600 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .2px; }
     .company { fill: var(--company); font: 700 15px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
     .org { fill: var(--label); font: 600 10.5px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
@@ -279,14 +279,11 @@ async function buildSvg(entries) {
 
   <rect class="card" x="1" y="1" width="${W - 2}" height="${H - 2}" rx="16" stroke-width="1.5" />
 
-  <g transform="translate(${pad},44)">
-    <path class="icon" transform="translate(0,-17) scale(0.95)" d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z" />
-    <text x="32" y="0" class="title">Career <tspan class="title-accent">Journey</tspan></text>
+  <g transform="translate(0,${-SHIFT})">
+    ${lineSvg}
+    ${chevrons}
+    ${tilesSvg}
   </g>
-
-  ${lineSvg}
-  ${chevrons}
-  ${tilesSvg}
 </svg>`;
 }
 
