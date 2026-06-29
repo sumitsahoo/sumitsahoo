@@ -123,13 +123,22 @@ function accentButton(label, glyph) {
 </svg>`;
 }
 
+// Live-site CTAs show the real production URL so it's memorable. "View on
+// GitHub" is identical for every project, so it stays a single reusable file.
+const LIVE = [
+  { key: "cloakpdf", domain: "pdf.cloakyard.com" },
+  { key: "cloakresume", domain: "resume.cloakyard.com" },
+  { key: "cloakimg", domain: "img.cloakyard.com" },
+];
+
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
 
   const files = {
     "view-on-github.svg": await neutralButton("View on GitHub", "github", "#181717"),
-    "live-demo.svg": accentButton("Live Demo", "globe"),
   };
+  for (const p of LIVE) files[`live-${p.key}.svg`] = accentButton(p.domain, "globe");
+
   for (const [name, svg] of Object.entries(files)) {
     await writeFile(`${OUT_DIR}/${name}`, svg, "utf8");
   }

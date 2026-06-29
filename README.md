@@ -55,21 +55,21 @@
 > Merge, split, compress, convert, and more — all running locally in your browser. No uploads, no servers, no limits.
 
 <a href="https://github.com/cloakyard/cloakpdf"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
-<a href="https://pdf.cloakyard.com/"><img src="assets/static/buttons/live-demo.svg" alt="Live Demo" height="34" /></a>
+<a href="https://pdf.cloakyard.com/"><img src="assets/static/buttons/live-cloakpdf.svg" alt="pdf.cloakyard.com" height="34" /></a>
 
 ### [CloakResume](https://resume.cloakyard.com/) — A privacy-first, open-source resume builder
 
 > Craft beautiful, professional resumes entirely in your browser. Your data never leaves your device.
 
 <a href="https://github.com/cloakyard/cloakresume"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
-<a href="https://resume.cloakyard.com/"><img src="assets/static/buttons/live-demo.svg" alt="Live Demo" height="34" /></a>
+<a href="https://resume.cloakyard.com/"><img src="assets/static/buttons/live-cloakresume.svg" alt="resume.cloakyard.com" height="34" /></a>
 
 ### [CloakImg](https://img.cloakyard.com/) — A minimal, privacy-first photo editor
 
 > A clean, browser-based photo editor that respects your photos. Crop, adjust, and enhance — everything stays on your device.
 
 <a href="https://github.com/cloakyard/cloakimg"><img src="assets/static/buttons/view-on-github.svg" alt="View on GitHub" height="34" /></a>
-<a href="https://img.cloakyard.com/"><img src="assets/static/buttons/live-demo.svg" alt="Live Demo" height="34" /></a>
+<a href="https://img.cloakyard.com/"><img src="assets/static/buttons/live-cloakimg.svg" alt="img.cloakyard.com" height="34" /></a>
 
 ## 📦 NPM Packages
 
