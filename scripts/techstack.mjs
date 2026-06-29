@@ -165,14 +165,20 @@ const LOGO = 15;
 const CHIP_GAP = 9;
 const ROW_GAP = 10;
 
-const chipW = (name) => 6 + TILE + 9 + Math.ceil(textW(name, 13)) + 13;
+// A trailing dashed "+ more" ghost chip per pillar signals these are favorites,
+// not the full set — there's more in each area.
+const GHOST_LABEL = "+ more";
+const chipW = (it) =>
+  it.ghost
+    ? 13 + Math.ceil(textW(GHOST_LABEL, 12)) + 13
+    : 6 + TILE + 9 + Math.ceil(textW(it.name, 13)) + 13;
 
 function layoutRows(items, maxW) {
   const rows = [];
   let row = [];
   let x = 0;
   for (const it of items) {
-    const w = chipW(it.name);
+    const w = chipW(it);
     if (row.length && x + w > maxW) {
       rows.push(row);
       row = [];
@@ -190,7 +196,7 @@ function computeCells() {
   const maxChars = Math.floor(contentW / 6.4);
   const cells = PILLARS.map((p) => {
     const blurbLines = wrap(p.blurb, maxChars, 2);
-    const rows = layoutRows(p.items, contentW);
+    const rows = layoutRows([...p.items, { ghost: true }], contentW);
     const chipsH = rows.length * CHIP_H + (rows.length - 1) * ROW_GAP;
     const cellH =
       INP +
@@ -213,6 +219,11 @@ function computeCells() {
 // --- render ------------------------------------------------------------------
 
 async function renderChip(it, x, y) {
+  if (it.ghost) {
+    return `
+    <rect x="${x}" y="${y}" width="${it.w}" height="${CHIP_H}" rx="10" class="ghost" />
+    <text x="${x + it.w / 2}" y="${y + CHIP_H / 2 + 4}" text-anchor="middle" class="ghost-label">${GHOST_LABEL}</text>`;
+  }
   const { viewBox, inner, fillRule } = await loadLogo(it.logo);
   const ty = y + (CHIP_H - TILE) / 2;
   const lx = x + 6 + (TILE - LOGO) / 2;
@@ -292,6 +303,8 @@ async function main() {
     .blurb { fill: var(--muted); font: 400 12.5px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
     .chip { fill: var(--chip-bg); stroke: var(--chip-border); stroke-width: 1; }
     .chip-label { fill: var(--chip-fg); font: 600 13px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; letter-spacing: .1px; }
+    .ghost { fill: none; stroke: ${ACCENT}; stroke-opacity: .45; stroke-width: 1; stroke-dasharray: 3 3; }
+    .ghost-label { fill: var(--muted); font: 600 12px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; }
   </style>
 
   <rect class="card" x="1" y="1" width="${W - 2}" height="${geo.H - 2}" rx="16" stroke-width="1.5" />
