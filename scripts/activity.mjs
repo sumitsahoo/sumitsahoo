@@ -214,7 +214,7 @@ function buildSvg(s) {
   const W = 1000;
   // No in-card title (the README already has a "GitHub Activity" heading); only
   // the username + GitHub mark sit at the top-right, content shifted up to suit.
-  const H = 200;
+  const H = 212;
   const pad = 40;
 
   const stats = [
@@ -226,7 +226,7 @@ function buildSvg(s) {
   ];
 
   const colW = (W - pad * 2) / stats.length;
-  const statY = 74;
+  const statY = 88;
   let statsSvg = "";
   stats.forEach((st, i) => {
     const x = pad + i * colW;
@@ -253,13 +253,14 @@ function buildSvg(s) {
   const idPadR = 14;
   const pillH = 28;
   const pillW = idPadL + idLogo + idGap + Math.ceil(textW(uname, 13)) + idPadR;
-  const pillX = W - pad - pillW;
-  const pillY = 22;
+  const idInset = 20; // equal padding from the card's top and right edges
+  const pillX = W - idInset - pillW;
+  const pillY = idInset;
   const pillCY = pillY + pillH / 2;
 
   // Sparkline of last 30 days across the bottom.
   const sparkX = pad;
-  const sparkY = 150;
+  const sparkY = 160;
   const sparkW = W - pad * 2;
   const sparkH = 28;
   const bars = sparklineBars(s.spark, sparkX, sparkY, sparkW, sparkH);
