@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🤖+I+build+AI+agents+for+a+living;☁️+Cloud-native+systems,+enterprise+scale;🚗+Car+nerd+the+rest+of+the+time)](https://github.com/sumitsahoo)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=588DF3&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=🤖+I+build+AI+agents+and+enterprise+apps;☁️+I+focus+on+cloud-native+systems+and+scale;🚗+Tech+nerd+and+car+nerd,+always)](https://github.com/sumitsahoo)
 
 <a href="https://github.com/sumitsahoo"><img src="assets/dynamic/stats.svg" alt="GitHub Stats" /></a>
 
