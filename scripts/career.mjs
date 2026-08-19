@@ -39,6 +39,7 @@ const MARKS = {
   ibm: { file: "ibm.svg", box: 0.78 },
   dell: { file: "dell.svg", color: "#007DB8", box: 0.56 },
   vodafone: { file: "vodafone.svg", color: "#E60000", box: 0.56 },
+  allianz: { file: "allianz.svg", box: 0.84 },
   future: { glyph: "sparkle", color: ACCENT, box: 0.46 },
 };
 
@@ -68,11 +69,10 @@ const CAREER = [
     role: "Solution Architect",
   },
   {
-    mark: "future",
+    mark: "allianz",
     range: "Aug 2026 – Present",
-    company: "New Chapter",
-    role: "To Be Revealed",
-    future: true,
+    company: "Allianz Technology",
+    role: ["Group", "Technology", "Architect"],
   },
 ];
 
